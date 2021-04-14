@@ -7,8 +7,10 @@ from collections import Counter
 from sklearn import preprocessing
 
 class TFIDF(object):
+    """ Class compute tf-idf following https://en.wikipedia.org/wiki/Tf-idf
 
-    def __init__(self, corpus):
+    """
+    def __init__(self, corpus=None):
         self.corpus = corpus
         # load dictionary
         self.dictionary = FileReader(settings.DICTIONARY_PATH).load_data()
@@ -16,6 +18,11 @@ class TFIDF(object):
         self.idf = FileReader(settings.IDF_PATH).load_data()
     
     def __set_idf(self):
+        """ compute idf each word of whole document
+
+        Returns:
+            dict: idf value every word in dictionary
+        """
         idf = {}
 
         D = len(self.corpus)
@@ -30,6 +37,11 @@ class TFIDF(object):
         return idf
 
     def compute_tf_idf(self):
+        """ compute tf-idf of each document in whole document
+
+        Returns:
+            sparse_matrix: row: document, col: word in dictinary, value: tf-idf value
+        """
         vocal = {j:i for i,j in enumerate(self.dictionary)}
         sparse_matrix= csr_matrix( (len(self.corpus), len(self.dictionary)), dtype=np.float64)
         
@@ -44,6 +56,14 @@ class TFIDF(object):
         return output
 
     def compute_query_tf_idf(self, document):
+        """ compute tf-idf a document query
+
+        Args:
+            document (list): a document query input
+
+        Returns:
+            sparse_matrix: row:document query, col:word in dictionary, value: tf-idf value
+        """
         vocal = {j:i for i,j in enumerate(self.dictionary)}
         sparse_matrix= csr_matrix( (1, len(self.dictionary)), dtype=np.float64)
         

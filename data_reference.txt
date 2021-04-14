@@ -1,0 +1,2 @@
+vietnamese-stopwords.txt  | https://github.com/stopwords/vietnamese-stopwords
+synonym_vietnamese.txt 	  | https://github.com/NLP-Projects/Word-Similarity
