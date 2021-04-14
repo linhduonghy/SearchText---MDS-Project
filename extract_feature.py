@@ -10,13 +10,24 @@ class TFIDF(object):
     """ Class compute tf-idf following https://en.wikipedia.org/wiki/Tf-idf
 
     """
-    def __init__(self, corpus=None):
+    def __init__(self, corpus=None, dictionary=None, idf=None):
         self.corpus = corpus
-        # load dictionary
-        self.dictionary = FileReader(settings.DICTIONARY_PATH).load_data()
-        # load idf        
-        self.idf = FileReader(settings.IDF_PATH).load_data()
-    
+        if dictionary == None: # load dictionary
+            self.dictionary = FileReader(settings.DICTIONARY_PATH).load_data()
+        else:
+            self.dictionary = dictionary
+        if idf == None: # load idf     
+            self.idf = FileReader(settings.IDF_PATH).load_data()
+        else:
+            self.idf = idf
+
+
+    def save_idf(self):
+        """ save idf value to disk
+        """
+        self.idf = self.__set_idf()
+        FileWriter(settings.IDF_PATH).save_data(self.idf)
+
     def __set_idf(self):
         """ compute idf each word of whole document
 

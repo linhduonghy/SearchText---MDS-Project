@@ -24,6 +24,20 @@ class FileReader(object):
                              for w in f.readlines()])
         return stopwords
 
+    def load_synonym(self):
+        """ load synonym word
+
+        Returns:
+            dict: value is a synonym of key 
+        """
+        synonym = {}
+        with open(self.filePath, encoding='utf8') as f:
+            for line in f.readlines():
+                if len(line.strip().split()) == 2:
+                    x, y = line.strip().split()                
+                synonym[y] = x
+        return synonym
+
     def load_data(self):
         with open(self.filePath, 'rb') as f:
             return pickle.load(f)
