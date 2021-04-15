@@ -1,0 +1,118 @@
+﻿Thời gian gần đây, thị trường di động trong nước xuất hiện những chiếc iPhone X có giá rẻ bất ngờ - chỉ khoảng hơn 4 triệu đồng, còn iPhone 8 Plus giá chỉ khoảng 3 triệu đồng.
+Mức giá này thực sự đã khiến nhiều người dùng công nghệ phải "tròn mắt", bởi dù ra đời cách đây gần 3 năm, nhưng iPhone X hay iPhone 8, 8 Plus vẫn là những sự lựa chọn "hạng sang" trên thị trường smartphone.
+Để so sánh, mức giá của iPhone X bản 64GB "Likenew" lên tới 15 triệu đồng, trong khi những máy cũ, xước nhẹ, cũng có giá khoảng 10 triệu đồng. Thấp tiền nhất từ trước tới nay là iPhone khóa mạng (iPhone Lock) cũng có giá dao động từ 8 triệu đồng.
+Theo tìm hiểu, những iPhone "siêu rẻ" nói trên được gọi chung là iPhone 'bypass', hay nôm na là những máy bị lỗi dính iCloud, giúp chúng bỏ qua bước đăng nhập iCloud khi kích hoạt iPhone để sử dụng các chức năng một cách bình thường. Tuy nhiên, máy sẽ đi kèm nhiều hạn chế ảnh hưởng tới trải nghiệm sử dụng.
+Hạn chế của iPhone 'bypass'
+iPhone 'bypass' không thể sử dụng chức năng nghe gọi, nhắn tin.
+Nếu chấp nhận mua iPhone 'bypass' với mức giá rẻ chỉ bằng phân nửa so với giá gốc, bạn sẽ đối mặt với những hạn chế nào?
+Đầu tiên là iPhone 'bypass' không thể sử dụng chức năng nghe gọi, nhắn tin. Nó cũng không dùng được mạng di động (3G/4G), do không nhận SIM.
+Ngoài ra, những máy này cũng không thể copy file qua iTunes, gọi điện FaceTime, hay sử dụng iMessage như những chiếc iPhone thông thường. Nói nôm na, bạn sẽ bỏ một số tiền rẻ hơn đáng kể để mua về một chiếc iPhone "tàn tật", chỉ sử dụng được một phần chức năng.
+Điều mà iPhone 'bypass' hướng đến là giải trí đa phương tiện bằng cách lướt web, nghe nhạc, xem phim, chụp ảnh, vào YouTube, chơi game,... Nó cũng có thể tải các ứng dụng trên cửa hàng App Store, nên bạn không cần lo lắng quá.
+Đây cũng là những chức năng mà đa số người dùng iPhone Lock hướng đến, do SIM ghép thường kém ổn định khi gọi, nhắn tin và kết nối Internet. Ưu điểm của iPhone 'bypass' đó là nó có giá thậm chí còn rẻ hơn cả iPhone Lock.
+Phát hiện iPhone 'bypass' thế nào?
+Reset iPhone 'bypass' sẽ biến máy thành "cục gạch".
+Các máy iPhone 'bypass' thường sẽ được cài đặt sẵn chế độ để có thể sử dụng bình thường. Tuy nhiên, khi bạn tiến hành cài đặt lại hệ thống hoặc kết nối với máy tính, laptop thông qua iTunes, máy sẽ yêu cầu nhập tài khoản iCloud.
+Khi ấy, những máy này sẽ rơi vào trạng thái không thể đăng nhập để sử dụng trở lại do iCloud bị khóa, hay còn gọi là "cục gạch". Do đó, chúng ta có thể nhận biết iPhone 'bypass' bằng một cách đơn giản hơn, đó là lắp SIM vào thiết bị rồi gọi thử.
+Lúc này, nếu là iPhone 'bypass' sẽ không thể gọi và nhắn tin, dù có thể hiện cột sóng hoặc biểu tượng cột sóng. Trong khi đó, nếu là iPhone bình thường thì các chức năng vẫn sẽ đảm bảo.
+Cần cảnh giác để tránh mua phải iPhone 'bypass' nếu bạn không có dự tính mua loại iPhone này.
+Theo chia sẻ của một số YouTuber về công nghệ, iPhone 'bypass' đang dần trở nên phổ biến hơn là do Apple bị lợi dụng lỗ hổng bảo mật có tên Checkra1n.
+Do đó, người dùng mua iPhone cũ, iPhone đã qua sử dụng tại các cửa hàng điện thoại nên cảnh giác và kiểm tra kỹ để tránh mua phải iPhone 'bypass' ngoài mong đợi, dẫn đến mất thời gian, tiền bạc.
+Bên cạnh đó, cần lưu ý một số iPhone 'bypass' được quảng cáo rằng có thể tùy chỉnh bằng phần mềm để sử dụng các chức năng nghe gọi, FaceTime, hay thậm chí có sóng di động. Tuy nhiên thực tế cho thấy không phải máy nào cũng làm được, và dù đã cài thành công nhưng trong quá trình sử dụng có thể bị lỗi và trở lại tình trạng như ban đầu.
+Nguyễn Nguyễn﻿Ngoại trừ một vài nâng cấp nhỏ về phần cứng, iPhone SE 2020 có thể được coi như một phiên bản "copy" hoàn chỉnh của chiếc iPhone 8 ra mắt năm 2017. Tuy nhiên, tại các trang thương mại điện tử Trung Quốc, mẫu iPhone này vẫn được quan tâm và thậm chí "cháy hàng" ngay sau khi mở bán.
+Chiếc iPhone "tí hon" bất ngờ "cháy hàng" tại Trung Quốc
+Theo Abacusnews, sàn thương mại điện tử JD.com thông báo đã bán hết 145.000 chiếc iPhone SE thế hệ mới cuối tuần trước. Trong khi đó, trang web đặt mua của Apple tại Trung Quốc cũng thông báo lùi thời gian giao hàng lại 1-2 tuần, khác với đợt ra mắt iPhone 11.
+Đây là một diễn biến khá bất ngờ, do mẫu iPhone SE 2020 vốn được nhận định sẽ kém thành công tại Trung Quốc và các thị trường Đông Nam Á như Việt Nam, Thái Lan do sở thích chuộng smartphone màn hình lớn, pin khỏe của đa số người dùng.
+Theo Ethan Qi, chuyên gia phân tích của Counterpoint Research, thành công của iPhone SE tại Trung Quốc có thể chỉ là tạm thời, do được thúc đẩy bởi chương trình ưu đãi của các đại lý phân phối trực tuyến.
+Điển hình như nhà bán lẻ Pinduoduo tại Trung Quốc đã tặng phiếu mua hàng trị giá 400 tệ (tương đương 1,3 triệu đồng) cho người mua iPhone SE trong đợt flash-sale mở bán giữa tuần trước. JD.com cũng cam kết sẽ giảm giá bán các dòng iPhone kế tiếp dựa trên 100% giá trị của iPhone SE cho những người mua sớm. 
+Theo nhiều chuyên gia phân tích, khi dịch bệnh tạm lắng, người dân sẽ bắt đầu quan tâm hơn đến việc nâng cấp iPhone, và iPhone SE sẽ là một sự lựa chọn tuyệt vời nếu nó có mức giá hợp lý.
+"Nếu iPhone SE xuống 10 triệu thì sức mua sẽ tốt hơn"
+Anh Lợi, chủ một cửa hàng di động trên địa bàn TP.HCM cho biết, trong thời gian qua, mặc dù tình trạng kinh doanh bị đình trệ do dịch Covid-19, nhưng sự quan tâm của người dân với các dòng iPhone, cũng như điện thoại trong phân khúc từ 5-7 triệu đồng, vẫn không suy giảm.
+Trong đó, mẫu iPhone SE 2020 cũng thu hút sự quan tâm của người dùng, nhưng do mức giá còn khá cao nên vẫn chưa có nhiều tín hiệu tích cực. "Thời gian tới, nếu như giá của iPhone SE giảm xuống khoảng 10 triệu thì sức mua sẽ tốt hơn", anh Lợi đánh giá.
+Dẫu vậy, chủ cửa hàng này cũng cho rằng iPhone SE chỉ hướng đến một nhóm đối tượng người dùng như những người không thích màn hình lớn, hoặc những người mua iPhone để làm điện thoại phụ nên mức tiêu thụ sẽ không đáng kể, đặc biệt là khi so với những mẫu iPhone cao cấp, có màn hình lớn như iPhone 11 Pro Max, iPhone XS Max.
+Điều này đã được minh chứng từ thất bại của mẫu iPhone SE 2016 hay chiếc iPhone XR "giá rẻ" tại thị trường Việt Nam, do tâm lý người tiêu dùng quan tâm nhiều hơn tới các thiết bị "hoành tráng", có màn hình lớn.
+Anh Quyết, một người kinh doanh tự do tại quận Hoàng Mai cho biết sẽ không mua iPhone SE 2020 do những nhược điểm như thiết kế kém hấp dẫn, màn hình nhỏ, pin dung lượng thấp. Thay vào đó, việc chọn mua một chiếc iPhone X hay XR đã qua sử dụng, hay thậm chí là iPhone 8 Plus, được xem là khả dĩ hơn rất nhiều.
+iPhone SE khó lòng tạo được dấu ấn đáng kể tại Việt Nam.
+Theo một phân tích của IDC, người dùng iPhone có xu hướng ít đổi điện thoại hơn so với người dùng Android. Chính bởi lý do này nên nhiều mẫu iPhone cũ như iPhone 6, iPhone 7 vẫn còn được sử dụng và lưu hành. Tại Việt Nam, cũng không hiếm gặp những người dùng vẫn còn giữ lại các mẫu iPhone có tuổi đời từ 4-5 thậm chí tới 7 năm như trường hợp của iPhone 5S.
+Tuy nhiên, xét trên điều kiện thực tế tại Việt Nam, nếu như quyết định "lên đời" điện thoại, những người này thường ưu tiên lựa chọn iPhone 11, iPhone XS, hoặc chuyển sang các điện thoại Android có màn hình lớn, pin khỏe để phục vụ nhu cầu giải trí.
+Nhiều phân tích trước đó cũng cho rằng iPhone SE mặc dù được đánh giá cao trên thế giới, nhưng sẽ khó tạo được dấu ấn đáng kể, mà chỉ đóng vai trò là thiết bị thay thế hoặc phụ trợ tại Việt Nam.
+Nguyễn Nguyễn﻿Năm nay, Apple đã bắt đầu bán iPhone 11, iPhone 11 Pro và iPhone 11 Pro Max tân trang tại hệ thống cửa hàng trực tuyến, với giá trung bình rẻ hơn từ 100 - 200 USD so với bản chính hãng.
+Cụ thể, iPhone 11 128GB được bán với giá 549 USD (12.6 triệu VNĐ), iPhone 11 Pro 256 GB có giá 849 USD (19,5 triệu VNĐ).
+Trong khi đó, iPhone 11 Pro Max được bán với giá từ 849 - 929 USD (21,5 triệu VNĐ) với tùy phiên bản bộ nhớ và màu sắc. Như vậy, đối với một chiếc iPhone 11 Pro Max 256GB, người dùng sẽ tiết kiệm được khoảng 4 triệu đồng so với phiên bản chính hãng.
+Về cơ bản, những chiếc iPhone tân trang là iPhone cũ, đã qua sử dụng, hoặc bị thu hồi do một lỗi thiết kế nào đó. Tất cả đều sẽ được Apple kiểm tra một cách cẩn thận, thay thế pin mới và lớp vỏ ngoài trước khi tung ra ngoài thị trường.
+Do đó, người dùng gần như không thể phân biệt với một chiếc máy mới. Ngoài ra, iPhone tân trang cũng được Apple hỗ trợ bảo hành 1 năm như mọi sản phẩm khác.
+Được biết, những chiếc iPhone tân trang sẽ được đặt bên trong một chiếc hộp hoàn toàn mới, đi kèm theo dòng chữ "Apple Certified Pre-Owned" (tạm dịch: Đã được chứng nhận bởi Apple).
+Tuy nhiên, điều đáng tiếc đó là Apple chưa có chính sách vận chuyển các phiên bản iPhone tân trang này về Việt Nam, khiến phần lớn người dùng Việt khó tiếp cận.
+Nguyễn Nguyễn﻿Nhân ngày Quốc tế Phụ nữ 8/3, nhiều cửa hàng, đại lý bán lẻ đã tung chương trình ưu đãi, giảm giá đối với nhiều sản phẩm smartphone trong mọi phân khúc.
+Theo khảo sát trên các hệ thống mua sắm lớn tại Việt Nam như Thế giới di động, FPT Shop, Cellphones, Didongviet,... nhiều mẫu smartphone được giảm giá từ 10 - 15%. Trong đó, cá biệt có một số sản phẩm giảm tới 5 triệu đồng.
+Dưới đây là một số lựa chọn smartphone đáng cân nhắc nhất trong dịp mua mua sắm này.
+Samsung Galaxy Z Flip
+Nếu bạn đang tìm kiếm một món quà với thiết kế khác lạ, độc đáo, để "ghi điểm" trong mắt người ấy, thì Galaxy Z Flip là một lựa chọn đáng cân nhắc, với mức giá hiện nay chỉ còn 20 triệu đồng.
+Mẫu smartphone gập này sở hữu phong cách thiết kế đặc trưng chỉ có trên dòng sản phẩm này, khiến chúng ta dễ dàng liên tưởng đến chiếc hộp phấn trang điểm quen thuộc của chị em. Ngoài ra, nó cũng được trang bị phần cứng mạnh mẽ với chip xử lý Snapdragon 855+ cùng 8GB RAM.
+Tại một số hệ thống bán lẻ, Samsung Galaxy Z Flip đang có mức khuyến mại lên tới 15 triệu đồng khi mua trực tiếp và gần 18 triệu đồng khi mua trực tuyến.
+iPhone 12 mini
+Mẫu iPhone nhỏ nhất thuộc series 12 của Apple đang được giảm mạnh giá bán xuống chỉ còn 17 triệu đồng tại một số hệ thống, thấp hơn 4 triệu so với giá niêm yết.
+Ưu điểm của sản phẩm là có kích thước nhỏ nhắn, phù hợp với đối tượng người dùng là nữ giới, khi cho phép thao tác dễ dàng bằng một tay, nhưng vẫn sở hữu trải nghiệm dùng mượt mà, hiệu năng mạnh mẽ đến từ con chip A14.
+Ngoài ra, iPhone 12 Mini còn được trang bị tính năng sạc pin nhanh 20W, cho phép người dùng nhanh chóng sạc đầy chiếc điện thoại của mình để tiếp tục công việc mà không bị gián đoạn quá lâu.
+Oppo Reno4 Pro
+Nếu cần một sản phẩm có mức giá không quá cao, nhưng mang đến trải nghiệm chụp ảnh xuất sắc, thì không thể không nhắc tới Oppo Reno4 Pro.
+Dòng sản phẩm này hiện đang được giảm giá mạnh xuống chỉ còn hơn 9 triệu đồng đối với hình thức mua online, tức giảm 23% so với giá niêm yết.
+Ngoài khả năng chụp ảnh ấn tượng với cụm 4 camera sau, Oppo Reno4 Pro còn được trang bị phần cứng mạnh mẽ, cùng công nghệ sạc siêu nhanh Super VOOC 65W hướng tới nhóm khách hàng thích chụp ảnh, chơi game với hiệu năng cao.
+Samsung Galaxy S21
+Với những người dùng yêu thích sản phẩm của Samsung, đây cũng là dịp tốt trong năm để sở hữu các siêu phẩm flag-ship như dòng Galaxy S21, hay Galaxy Note20.
+Trong đó, đáng chú ý nhất phải kể tới mẫu Galaxy S21 đang được giảm giá mạnh xuống chỉ còn 20 triệu đồng, và đi kèm nhiều quà tặng hấp dẫn.
+Sản phẩm nổi bật với cụm camera sau được thiết kế đầy mới lạ, trang bị nhiều công nghệ tối tân như mở khóa vân tay siêu âm, màn hình tần số quét 120Hz, quay video 8K, và không thể không nhắc tới camera mạnh mẽ, cho ra những bức ảnh đẹp mà không cần chỉnh sửa quá nhiều.
+Xiaomi Mi 10T Pro
+Một lựa chọn đáng cân nhắc khác trong phân khúc 10 triệu đó là Xiaomi Mi 10T Pro. Hiện sản phẩm đang được giảm giá 3 triệu đồng so với giá niêm yết.
+Mẫu smartphone cao cấp này của Xiaomi sở hữu hàng loạt thông số gây "choáng ngợp", như màn hình tần số quét 144Hz, vi xử lý Snapdragon 865 và cụm camera khủng 108 MP.
+Bên cạnh đó, thời lượng pin của máy cũng vô cùng ấn tượng với cục pin dung lượng 5.000mAh, đi kèm công nghệ sạc nhanh 33W của Xiaomi, giúp rút ngắn thời gian sạc xuống chỉ còn phân nửa so với các phương pháp thông thường.
+Thiết kế của máy "ghi điểm" với màn hình tràn viền kích thước lớn 6,67 inch, 4 góc bo cong mềm mại, mặt lưng kính hút mắt, phù hợp với cả đối tượng nam giới và nữ giới.
+Bên cạnh đó, bạn đọc có thể tham khảo nhiều mẫu smartphone khác cũng rất đáng cân nhắc, và có nhiều ưu đãi đi kèm như iPhone 12 Pro ở phân khúc 30 triệu, Samsung Galaxy M51 ở phân khúc 8 triệu đồng, Vivo Y51 ở phân khúc 5 triệu đồng, hay Oppo Find X2 ở phân khúc 20 triệu đồng,...
+Nguyễn Nguyễn﻿FPT cho biết, tuy bị ảnh hưởng nhẹ trong Quý I/2020 bởi đại dịch Covid-19, FPT vẫn tiếp tục đạt kết quả kinh doanh tăng trưởng ấn tượng. Trong đó, doanh thu hợp nhất và lợi nhuận trước thuế lần lượt đạt 6.631 tỷ đồng và 1.142 tỷ đồng, tăng 17,0% và 18,9% so với cùng kỳ năm 2019, tương đương 102% kế hoạch lũy kế. Tỷ suất lợi nhuận được cải thiện so cùng kỳ, đạt 17,2% (Quý 1 năm 2019 đạt 16,9%).
+Lợi nhuận sau thuế và lợi nhuận sau thuế thuộc về cổ đông công ty mẹ đạt mức 937 tỷ và 747 tỷ đồng, lần lượt tăng 18,0% và 19,3% so với cùng kỳ. Nhờ vậy, lãi cơ bản trên cổ phiếu (EPS) ở mức 1.101 đồng mỗi cổ phiếu, tương đương mức tăng trưởng 18,7%.
+Theo kết quả kinh doanh theo mảng hoạt động, lợi nhuận trước thuế của mảng Dịch vụ công nghệ thông tin nước ngoài và Dịch vụ Viễn thông lần lượt tăng trưởng 27% và 29%.
+Trong khi đó, mảng dịch vụ công nghệ thông tin nước ngoài và dịch vụ Viễn thông có mức lợi nhuận trước thuế 425 tỷ đồng và 401 tỷ đồng, tăng trưởng 27% và 29%, đạt 103% kế hoạch đề ra, chiếm tỷ trọng lớn trong tổng doanh thu và lợi nhuận.
+Trong quý I, FPT đã thực hiện nhiều dự án chuyển đổi số lớn, ghi nhận doanh thu 729 tỷ từ mảng dịch vụ này, tăng trưởng 55% so với cùng kỳ 2019.
+Trong báo cáo doanh thu, FPT cho biết, mảng dịch vụ công nghệ thông tin cho thị trường trong nước và mảng quảng cáo trực tuyến cũng ít nhiều bị ảnh hưởng do các khách hàng doanh nghiệp trong nước bị tác động mạnh và cắt giảm chi tiêu.
+Tại thị trường quốc tế, FPT cho biết, thị trường APAC và Mỹ dẫn đầu về tăng trưởng. Doanh thu từ thị trường nước ngoài của FPT tiếp tục tăng trưởng cao, ở mức 26% so với cùng kỳ năm 2019, đạt 2.891 tỷ đồng. Trong đó, với mức tăng trưởng ấn tượng 59% so với cùng kỳ năm 2019, doanh thu tại thị trường châu Á - Thái Bình Dương (APAC) đạt 450 tỷ đồng, đóng góp 16% vào tổng doanh thu từ thị trường nước ngoài của FPT. Thị trường Mỹ tăng trưởng 28%, doanh thu đạt 675 tỷ đồng. Các thị trường Nhật Bản và châu Âu có mức tăng trưởng lần lượt 19% và 17%.
+Kết quả kinh doanh quý I chưa bị ảnh hưởng mạnh bởi COVID-19. Tuy nhiên, do dịch bệnh diễn biến hết sức phức tạp nên FPT dự kiến các hoạt động kinh doanh của công ty sẽ bị ảnh hưởng nhiều hơn trong quý 2.
+Trong khi đó, ông lớn trong lĩnh vực bán lẻ là Thế Giới Di Động cũng đã có 2 tháng đầu năm kinh doanh ấn tượng.
+Cụ thể, lũy kế 2 tháng đầu năm 2020, Thế Giới Di Động đã ghi nhận doanh thu thuần hợp nhất đạt 20 541 tỷ đồng (tăng trưởng 18%) và lợi nhuận sau thuế đạt 845 tỷ đồng (tăng trưởng 16%) so với cùng kỳ năm 2019.
+Theo ngành hàng, so với lũy kế 2 tháng đầu năm 2019, sản phẩm điện thoại và điện tử tăng trưởng dương trong khi nhóm điện lạnh và gia dụng tăng trên 15%. Đặc biệt, ngành hàng máy tính xách tay ghi nhận mức tăng trưởng mạnh so với cùng kỳ do nhu cầu học tập và làm việc tại nhà trong mùa dịch Covid 19.
+Với 253 cửa hàng kinh doanh đồng hồ tại thời điểm cuối tháng 2 ngành hàng này mang về gần 300 tỷ đồng doanh thu lũy kế cho Thế Giới Di Động.
+Báo cáo doanh thu của nhà bán lẻ này cho biết, thực phẩm và tiêu dùng nhanh (FMCGs)  tiếp tục tăng trưởng hơn gấp đôi so với cùng kỳ 2019
+Thế Giới Di Động cho biết, từ tháng 2/2020 đến nay, tình hình dịch bệnh Covid 2019 đã có nhiều diễn biến phức tạp, Công ty nhận thấy các cửa hàng TGDĐ và ĐMX ngoài khu vực Hà Nội và TP HCM ít bị ảnh hưởng bởi dịch bệnh hơn so với 2 thành phố chính (các cửa hàng ngoài Hà Nội và TP HCM chiếm gần 80 tổng số lượng cửa hàng của MWG). Trong khi đó do kinh doanh nhu yếu phẩm phục vụ nhu cầu hàng ngày của người dân doanh thu của các cửa hàng BHX khá ổn định và đang có xu hướng tăng lên.
+Theo bản báo cáo, mặc dù chịu tác động của dịch bệnh doanh thu thuần riêng tháng 2 của Thế Giới Di Động vẫn tăng trưởng 13% nhờ và chuỗi cửa hàng TGDĐ và Điện máy xanh duy trì được tổng doanh số tăng nhẹ so với cùng kỳ năm 2019 và (sự đóng góp tích cực từ chuỗi BHX). Cụ thể là đóng góp doanh thu từ chuỗi BHX có sự tăng trưởng vượt bậc từ mức 5% thời điểm tháng 2/2019 lên tới 16% vào tháng 2/2020.
+ Minh Anh﻿Nếu bạn đang tìm kiếm địa chỉ mua sắm phụ kiện công nghệ uy tín và có giá tốt thì FPT Shop sẽ là nơi đáng tin cậy để bạn lựa chọn. Đặc biệt, có rất nhiều lý do để bạn đến FPT Shop mua phụ kiện trong tháng 4 này, cụ thể là:
+FPT Shop giảm đến 40% và tặng thêm nhiều quà tặng thiết thực
+Theo đó, chọn mua các sản phẩm phụ kiện từ nay đến ngày 30/4, bạn sẽ được hưởng ưu đãi giảm giá đến 40% tại FPT Shop. Cụ thể, sản phẩm loa karaoke nổi bật đến từ thương hiệu iValue đang được giảm 40% trên giá niêm yết. Giá về tay chỉ còn từ 1.314.000 đồng. Đây sẽ là cơ hội tốt để bạn sở hữu cho mình chiếc loa karaoke có kiểu dáng hợp thời trang, chất lượng tiêu chuẩn châu Âu và đảm bảo an toàn khi sử dụng.
+Bên cạnh đó, khi chọn mua combo Tom & Jerry bao gồm sạc dự phòng, kính cường lực và dây cáp bạn sẽ được tùy chọn nhận hoặc SIM đồng thương hiệu Mobifone - FPT giúp miễn phí toàn bộ data truy cập ứng dụng FPT Play và 1.500 phút gọi nội mạng dưới 10 phút hoặc giảm ngay 200.000 đồng. Combo sản phẩm trên không những giúp điện thoại kết nối một cách dễ dàng hơn mà còn bảo vệ màn hình khi rơi, chống trầy xước mang lại cảm giác an toàn khi sử dụng.
+Không kém phần thiết thực, khách hàng sở hữu combo Thor bao gồm chuột không dây, miếng dán màn hình 2 mặt và túi chống sốc cũng sẽ được giảm ngay 20%, kèm phiếu mua hàng 300.000 đồng dùng để mua loa Bluetooth. Đây là gói combo hoàn hảo giúp người dùng bảo vệ chiếc laptop tránh khỏi tình trạng hỏng hóc không đáng có.
+Đồng thời, chọn mua phụ kiện tại FPT Shop trong tháng 4 này, khách hàng sẽ được giảm giá đến 20% trên tổng hóa đơn. Cụ thể, mua 3 món giảm 10%, mua 4 món giảm 15%, mua 5 món giảm 20%, áp dụng với hàng ngàn phụ kiện chính hãng đang được bày bán tại FPT Shop như sạc dự phòng, ốp lưng, loa bluetooth, chuột không dây, bàn phím máy tính, v.v... (trừ một số ít sản phẩm: Ổ cứng, RAM, Loa Sony JBL, phụ kiện Xiaomi, phụ kiện nhập khẩu Apple, Phần mềm Microsoft Eset, bộ phát wifi FPT PlayBox).
+Để mua sản phẩm phụ kiện với nhiều ưu đãi nhất từ FPT Shop, bạn có thể đến trực tiếp tại cửa hàng, mua online ngay tại đây hoặc gọi đến tổng đài miễn cước 1800 6601 để được hỗ trợ nhanh nhất.
+FPT Shop giảm mạnh đến 40% khi mua phụ kiện công nghệ
+FPT Shop mang đến dịch vụ hỗ trợ tốt nhất
+Chọn mua các phụ kiện công nghệ tại FPT Shop, bạn không chỉ được tặng nhiều ưu đãi hấp dẫn mà còn được hưởng thêm các dịch vụ hỗ trợ, giúp bạn dễ dàng sở hữu được món hàng yêu thích lại vừa an tâm sử dụng sản phẩm.
+Thứ nhất, ngoài việc chọn mua sản phẩm trực tiếp tại hệ thống hơn 630 cửa hàng trên toàn quốc, bạn có thể chọn mua online, FPT Shop sẽ giao hàng tận nơi miễn phí cho đơn hàng phụ kiện có giá trị từ 100.000 đồng.
+Thứ hai, bạn được đổi mới trong vòng 1 năm nếu phụ kiện đã mua có lỗi từ nhà sản xuất. Vậy nên, bạn sẽ yên tâm hơn khi chọn mua sắm tại FPT Shop.
+Thứ ba, FPT Shop hỗ trợ 100% lãi suất trả góp cho những ai đang băn khoăn về vấn đề tài chính. Thủ tục trả góp rất đơn giản và hồ sơ được duyệt nhanh chóng chỉ trong vòng 15 phút. Thậm chí, bạn có thể làm thủ tục trả góp từ xa mà không cần phải đi đến cửa hàng, không còn phải lo ngại về vấn đề thời gian cũng như khoảng cách.
+Tặng SIM Mobifone - FPT hoặc giảm ngay 200.000 đồng khi mua combo Tom & Jerry
+Phụ kiện công nghệ chính hãng và đa dạng thương hiệu
+Phụ kiện được bán tại FPT Shop đều là những sản phẩm chính hãng, nguồn gốc rõ ràng đến từ các thương hiệu danh tiếng trên thế giới như Anker, UME Travel, i.Value, Belkin,… Nhờ vậy, bạn sẽ không còn phải lo lắng về việc mua nhầm hàng giả, hàng nhái kém chất lượng.
+Mặt khác, kiểu dáng và mẫu mã của những sản phẩm này luôn được cập nhật theo xu hướng mới nhất nên bạn có thể lựa chọn tùy theo sở thích và nhu cầu của mình.
+Trường Thịnh﻿iPhone 12 Pro/Pro Max giảm 3 triệu đồng
+iPhone 12 Pro Max tính đến nay vẫn là mẫu iPhone cao cấp nhất, thu hút đông đảo người mua tại Việt Nam. Tuy nhiên, giá bán của iPhone 12 Pro Max lại đang giảm mạnh, có lẽ nhằm kích cầu tiêu dùng và cải thiện doanh số dịp cuối năm.
+Mẫu điện thoại này vừa được nhiều cửa hàng giảm giá xuống dưới 30 triệu đồng, trong khi một tuần trước đó, giá sản phẩm vẫn ở mức 32 - 33 triệu đồng. So với giá niêm yết, mẫu này đã giảm 5 triệu đồng.
+Tiếp đến là iPhone 12 Pro hiện chỉ có giá từ 27 triệu đồng, tức rẻ hơn mức giá ban đầu 3 triệu đồng.
+iPhone 12/12 mini giảm 1 triệu đồng
+Là phiên bản ít được chuộng tại Việt Nam, iPhone 12 (bản tiêu chuẩn) tiếp tục được điều chỉnh xuống khoảng 1 triệu đồng. Hiện nay, giá bán của iPhone 12 bản 128GB chỉ còn xấp xỉ 21 triệu đồng. Mức giá này so với giá niêm yết khi mở bán thấp hơn 4 triệu đồng.
+iPhone 12 mini - mẫu điện thoại kém thành công nhất trong "bộ tứ" iPhone 12, cũng được điều chỉnh giá thấp hơn khoảng 1 triệu đồng. Hiện mức giá của sản phẩm chỉ dao động dưới 18 triệu đồng, tùy màu sắc.
+iPhone 11 giảm 1 triệu đồng
+iPhone 11 phiên bản chính hãng, bộ nhớ 64GB đang được nhiều cửa hàng, đại lý bán với mức giá 16 triệu đồng. Trong khi đó, phiên bản 128GB chỉ dao động từ 19 triệu.
+So với thời điểm cách đây 1 tháng, iPhone 11 đã giảm khoảng 1 triệu đồng. So với giá niêm yết (19,9 triệu), iPhone 11 giảm khoảng 4 triệu đồng. 
+Là một trong những mẫu iPhone đời cũ bán chạy nhất tại thời điểm hiện nay, iPhone 11 Pro Max phiên bản 512 GB đã có điều chỉnh giá khoảng 2 triệu đồng so với thời điểm đầu năm, chỉ còn 34 triệu đồng. Trong khi đó, phiên bản 64GB cũng giảm nhẹ 1 triệu đồng, còn 26 triệu đồng tại các đại lý, cửa hàng.
+iPhone SE giảm 2 triệu đồng
+Ra mắt từ giữa năm 2020, iPhone SE không quá nổi bật, nhưng vẫn thu hút được một số lượng người dùng iPhone đời cũ, muốn nâng cấp để cải thiện trải nghiệm dùng.
+Hiện giá bán của iPhone SE (2020) 64GB chỉ là 11 triệu đồng, giảm khoảng 2 triệu đồng so với thời điểm cuối năm. Trong khi đó, mức giá của phiên bản 256GB giảm xuống chỉ còn 16 triệu đồng - tương đương giá một chiếc iPhone 11 64GB.
+Nguyễn Nguyễn﻿A Chấm Công - Phần mềm quản lý nhân sự tự động 4.0 được nghiên cứu và phát triển dựa trên những thành tựu tiến tiến của trí tuệ nhân tạo AI. Phần mềm đáp ứng nhu cầu cấp bách của doanh nghiệp đang gặp khó khăn trong quá trình quản trị nhân sự, đặc biệt là vấn đề quản lý chấm công như: Mất dữ liệu người dùng khi máy bị lỗi, hỏng. Nhân sự chen chúc, xếp hàng dài chờ được checkin, checkout, gây cảm giác khó chịu. Tình trạng đi sớm về muộn thường xuyên xảy ra. Nhà quản lý mất nhiều thời gian xuất file báo cáo, tổng hợp dữ liệu, ngày công, phân loại ca kíp, duyệt đơn từ, sai số nhiều khi doanh nghiệp có quy mô lớn… Vậy, làm thế nào để giải quyết tối ưu bài toán này?
+Phần mềm A Chấm Công giúp doanh nghiệp quản lý nhân sự tiện lợi, chuyên nghiệp
+Sự cần thiết của việc sử dụng Phần mềm A Chấm Công trong Doanh nghiệp

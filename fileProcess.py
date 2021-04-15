@@ -14,7 +14,8 @@ class FileReader(object):
         Returns:
             str: whole text in document
         """
-        with open(self.filePath, encoding='utf-16-le') as f:
+        # print(self.filePath)
+        with open(self.filePath, encoding='utf-8') as f:
             s = f.read()
         return s
 

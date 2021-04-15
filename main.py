@@ -14,16 +14,16 @@ nlp = NLP()
 
 for filename in os.listdir(settings.DATA_PATH):
     files.append(filename)
-    text = FileReader(os.path.join(settings.DATA_PATH, filename)).read()
-    nlp.set_text(text)
-    corpus.append(nlp.preprocess())
+    # text = FileReader(os.path.join(settings.DATA_PATH, filename)).read()
+    # nlp.set_text(text)
+    # corpus.append(nlp.preprocess())
 
 # build dictionary from corpus
 # Dictionary(corpus).build_dictionary()
 
 # load dictionary
 dictionary = FileReader(settings.DICTIONARY_PATH).load_data()
-
+# print(dictionary)
 # # init TFIDF with corpus input
 # tfidf = TFIDF(corpus)
 
@@ -36,7 +36,7 @@ idf = FileReader(settings.IDF_PATH).load_data()
 # # compute tf-idf value of whole document 
 # tf_idf = tfidf.compute_tf_idf()
 
-# # save tf-idf value of who document to disk
+# # # save tf-idf value of who document to disk
 # FileWriter(settings.TFIDF_PATH).save_data(tf_idf)
 
 # load tf_idf of whole document
@@ -59,5 +59,7 @@ similarity = Similarity().similarity(tf_idf, query_tf_idf).flatten()
 similarity, files = zip(*sorted(zip(similarity, files)))
 
 print('\nSimilarity descending:')
-for i in range(len(files)-1, -1, -1):
-    print('%s\t%f' % (files[i], similarity[i]))
+sim_re, files_res = similarity[-10:], files[-10:]
+
+for i in range(len(files_res)-1, -1, -1):
+    print('%s %f' % (files_res[i], sim_re[i]))

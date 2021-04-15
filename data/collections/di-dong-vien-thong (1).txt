@@ -1,0 +1,179 @@
+﻿Trên ReLab Group, một nhóm Facebook thảo luận về công nghệ, nhiều thành viên chia sẻ về việc gặp lỗi với chiếc điện thoại của mình. "Tối qua cắm sạc để đi ngủ, sáng dậy thì thấy như thế này", tài khoản Bách Tùng đăng bài kèm bức ảnh chiếc smartphone đang ở recovery mode.
+Sáng 23/5, một số người dùng Samsung Galaxy thấy máy tự động vào recovery mode và không thể khởi động bình thường trở lại.
+Hàng loạt bài viết về lỗi tương tự cũng được chia sẻ trên khắp các nhóm Facebook, diễn đàn công nghệ. "Phần lớn máy bị vấn đề này thuộc dòng Galaxy J (giá rẻ), một số rơi vào Galaxy A (tầm trung), thậm chí dòng cao cấp Galaxy S cũng gặp nhưng số lượng thấp hơn", Minh Khôi, quản trị viên nhóm công nghệ với 70.000 thành viên, nói.
+Recovery mode là chế độ được nhà sản xuất tạo ra để sửa chữa một số vấn đề có thể gặp phải với điện thoại, máy tính bảng. Trên Android, recovery mode thường cho phép xóa dữ liệu để khôi phục cài đặt gốc, tắt máy, khởi động lại máy hay xem lịch sử lỗi...
+Phóng viên Dân trí đã tiếp cận với một chiếc Galaxy A80 mới tinh, gặp lỗi trên. Sau khi bóc hộp khoảng 10 phút, kết nối Wi-Fi và thực hiện các thiết lập cơ bản, cắm sạc thì thiết bị tự động vào recovery mode. Dù đã chọn các thao tác hiển thị trên màn hình nhưng vẫn không thể mở máy lên và dùng được.
+Phát Video
+01:18
+Smartphone Samsung "đột tử" hàng loạt tại Việt Nam
+Hoàng Chương, admin diễn đàn TekCafe, cho biết không phải máy nào cũng bị tự vào recovery mode dù cùng một model. "Phần lớn máy gặp sự cố trên đang chạy phần mềm từ trước tháng 8/2019", anh nhận định. "Những thiết bị được cập nhật phiên bản mới sẽ không bị vấn đề này".
+Theo một số kỹ thuật viên, cho đến khi Samsung ra bản sửa lỗi chính thức, chưa có cách khắc phục triệt để cho vấn đề "đột tử" này. Khi vào recovery mode, thiết bị có tùy chọn Erase app data (xóa dữ liệu ứng dụng), sẽ khôi phục dữ liệu trên smartphone về trạng thái gốc nhưng cách vẫn không thể giúp máy khởi động lại bình thường.
+Một tùy chọn khác là Try Again (Thử lại) nhưng khi khởi động lại máy sẽ chỉ thấy màn hình đen. Theo các chuyên gia, lúc này màn hình dù không hiển thị gì nhưng thực tế máy đã được khởi động. Lúc này, hãy lấy điện thoại khác gọi vào số trên máy bị lỗi, bấm nhận cuộc gọi sau đó kéo thanh trạng thái xuống để vào cài đặt và nâng cấp phần mềm.
+Các máy bị lỗi trên chủ yếu thuộc dòng Galaxy J của Samsung.
+"Với người am hiểu về công nghệ hoặc thợ sửa điện thoại có thể cập nhật bản phần mềm mới nhất thông qua Odin", kỹ thuật viên một cửa hàng smartphone trên phố Thái Hà (Hà Nội) chia sẻ. "Cách này không quá khó thực hiện nhưng sẽ không dành cho người dùng phổ thông".
+Trong khi đó, một hệ thống di động lớn tại Việt Nam,  đã đưa ra thông báo về lỗi trên. "Chúng tôi đã ghi nhận các máy Galaxy J 2018, Galaxy A 2018 mua tại hệ thống bị tự động vào recovery mode. Lỗi chỉ xảy ra với một số sản phẩm đời cũ, không phải với toàn bộ máy Samsung”, đại diện truyền thông của nhà bán lẻ này cho hay.
+Đại lý trên cho biết sẽ tiếp nhận và sửa chữa miễn phí với tất cả các sản phẩm lỗi, bao gồm cả những thiết bị mà khách hàng không mua tại đây.
+Dân trí tiếp tục cập nhật thông tin.
+Đình Nam﻿Thư mời sự kiện đặc biệt ngày 14/4 của Sony. Sự kiện sẽ được tổ chức trực tuyến và phát trực tiếp trên Youtube.
+Từng là một ông lớn trên thị trường di động, nhưng Sony đã chứng kiến doanh số smartphone liên tục sụt giảm, dần mất chỗ đứng trên thị trường. Mức giá bán quá cao, thiết kế thiếu đột phá… là những nguyên nhân khiến người dùng quay lưng với sản phẩm smartphone của Sony, ngay cả tại quê nhà Nhật Bản.
+Có nhiều tin đồn về việc Sony sẽ rút lui khỏi thị trường di động, ngừng ra mắt các mẫu smartphone mới, hoặc thậm chí sẽ bán thương hiệu smartphone Xperia cho một công ty khác, giống như hãng đã làm khi bán thương hiệu Vaio trước đây khi rút khỏi thị trường máy tính. Tuy nhiên, có vẻ như Sony vẫn chưa muốn từ bỏ "sân chơi" di động và sẽ tiếp tục ra mắt các mẫu smartphone mới.
+Hãng vừa thông báo sẽ tổ chức một sự kiện đặc biệt vào ngày 14/4 tới đây. Dù không nói rõ sản phẩm nào sẽ xuất hiện tại sự kiện này, nhưng với tên gọi "Xperia", sự kiện này được cho là dịp để hãng giới thiệu mẫu smartphone mới mang thương hiệu Xperia.
+Theo giới công nghệ, đây sẽ là dịp để Sony giới thiệu chiếc smartphone cao cấp thế hệ mới Xperia 1 III và chiếc smartphone cỡ nhỏ Xperia Compact.
+Hình ảnh bản dựng bị rò rỉ của Xperia 1 III.
+Theo các thông tin bị rò rỉ trước đó, Xperia 1 III sẽ sở hữu cấu hình mạnh, với màn hình 6,5 inch độ phân giải 4K, tần số làm tươi 120Hz, sử dụng chip Xperia 888 cao cấp của Qualcomm, bộ nhớ RAM 12GB, hỗ trợ kết nối mạng 5G.
+Máy được cho là sẽ có camera với khả năng zoom quang học 5x. Đặc biệt, Xperia 1 III vẫn sẽ giữ lại giắc cắm 3,5mm và khe cắm thẻ nhớ ngoài, là những tính năng đã bị loại bỏ trên những mẫu smartphone gần đây.
+Hình ảnh bị rò rỉ của Xperia Compact.
+Trong khi đó, Xperia Compact được xem là sản phẩm để đối đầu trực tiếp với iPhone 12 mini của Apple. Các thông tin bị rò rỉ trên mạng cho biết sản phẩm sẽ có màn hình 5,5 inch, được trang bị cụm camera kép 13 megapixel ở mặt sau và màn hình dạng "giọt nước" để bố trí camera trước.
+Thông tin cấu hình chi tiết của Xperia Compact chưa bị rò rỉ, nhưng sản phẩm nhiều khả năng vẫn sẽ được trang bị khe cắm thẻ nhớ ngoài và giắc cắm 3,5mm.
+Hiện mọi thông tin về các sản phẩm vẫn chỉ dừng lại ở mức tin đồn, nhưng một điều chắc chắn là Sony vẫn quyết tâm bám trụ với thị trường smartphone, thay vì từ bỏ như giới công nghệ dự đoán.
+T.Thủy
+Theo OnLeaks﻿LG đã chính thức thông báo sẽ rút lui khỏi thị trường di động sau nhiều năm liên tiếp kinh doanh thua lỗ trên thị trường này. Đây là một điều tiếc nuối của không ít người yêu thích hãng công nghệ Hàn Quốc.
+Cùng điểm lại những mẫu điện thoại và smartphone đã giúp tạo nên tên tuổi và danh tiếng của LG trên thị trường di động.
+LG B1200 - Chiếc điện thoại di động đầu tiên của LG
+LG chính thức gia nhập thị trường điện thoại di động vào năm 2002, với mẫu sản phẩm B1200. Chiếc điện thoại có thiết kế dạng thanh, sở hữu màn hình đơn sắc độ phân giải 112x64, khả năng lưu được 100 số điện thoại, lưu được lịch sử 20 cuộc gọi đi, đến và nhỡ.
+Máy được trang bị thỏi pin rời 650mAh, cho phép gọi điện liên tục trong 2 giờ và thời gian chờ 150 giờ.
+LG Prada - Chiếc điện thoại màn hình thuần cảm ứng đầu tiên trên thế giới
+Nhắc đến điện thoại cảm ứng và tạo nên xu thế cho thị trường smartphone, nhiều người sẽ nhắc ngay đến phiên bản iPhone đầu tiên của Apple. Tuy nhiên, trên thực tế, LG mới là hãng cho ra mắt chiếc điện thoại màn hình thuần cảm ứng đầu tiên trên thế giới, với tên gọi Prada.
+Sản phẩm được ra mắt vào tháng 12/2006, chỉ ít tháng trước khi Apple ra mắt phiên bản iPhone đầu tiên. LG Prada có màn hình cảm ứng 3-inch, độ phân giải 400x240, khả năng hiển thị 256 nghìn màu. Máy được trang bị bộ nhớ 8MB, khả năng hỗ trợ thẻ nhớ tối đa 2GB, camera 2 megapixel ở mặt sau, không có camera selfie ở mặt trước.
+Tuy nhiên, sự ra mắt của LG Prada đã nhanh chóng bị Apple làm "phai mờ" với mẫu iPhone đầu tiên ra mắt không lâu sau đó, với cấu hình và tính năng vượt trội hơn.
+Phát Video
+08:25
+Mở hộp và thực tế LG Prada, điện thoại thuần cảm ứng đầu tiên trên thế giới
+LG Viewty - Điện thoại màn hình cảm ứng với camera 5 megapixel
+Vào tháng 7/2008, LG ra mắt Viewty, chiếc điện thoại màn hình cảm ứng đầu tiên được trang bị camera 5 megapixel, vượt trội so với camera 2 megapixel được trang bị trên iPhone vào thời điểm đó. Máy được trang bị tính năng tự động lấy nét, ổn định hình ảnh điện tử và cả đèn flash xenon. Camera trên LG Viewty cho phép quay video độ phân giải 320x240 ở tốc độ 120 khung hình/giây, một tính năng ấn tượng vào thời điểm đó.
+Máy có thiết kế tương tự LG Prada, nhưng bộ nhớ trong được mở rộng lên thành 100MB và tích hợp thêm camera độ phân giải VGA (640x480) ở mặt trước để thực hiện chức năng gọi điện video.
+LG Renoir - Điện thoại cảm ứng được trang bị camera 8 megapixel đầu tiên
+LG một lần nữa vượt qua các đối thủ khi ra mắt Renoir vào tháng 8/2008, trở thành chiếc điện thoại màn hình cảm ứng đầu tiên trên thế giới được trang bị camera độ phân giải 8 megapixel.
+Một số điểm nổi bật của mẫu điện thoại này đó là trang bị tính năng lấy nét bằng tay, phát hiện chớp mắt khi chụp ảnh, tích hợp GPS để tự động đánh dấu vị trí vào các bức ảnh…
+LG GW620 - Smartphone chạy Android đầu tiên của LG
+LG đã từng có một thời gian ngắn sử dụng nền tảng Symbian trên các mẫu điện thoại của mình, nhưng đến tháng 9/2009, hãng ra mắt LG GW620 (còn được gọi là InTouch Max), chiếc smartphone đầu tiên sử dụng nền tảng Android của Google, và chính thức gắn bó với nền tảng này cho đến ngày nay.
+LG GW620 có thiết kế màn hình cảm ứng 3-inch, độ phân giải 480x320, có thể trượt ngang để lộ bàn phím vật lý QWERTY ở bên dưới. Sản phẩm được trang bị bộ nhớ 150MB, hỗ trợ khe cắm thẻ nhớ ngoài, camera chính 5 megapixel, nhưng không có camera trước, thỏi pin có thể tháo rời dung lượng 1.500mAh.
+LG New Chocolate - Chiếc điện thoại màn hình 21:9 đầu tiên trên thế giới
+Vào thời điểm màn hình tỷ lệ 4:3 hoặc 16:9 vẫn đang phổ biến trên thị trường, LG đã khiến nhiều người bất ngờ khi ra mắt chiếc điện thoại New Chocolate vào tháng 8/2009, sở hữu màn hình tỉ lệ 21:9 (800x345), hỗ trợ âm thanh Dolby Mobile, giúp mang lại trải nghiệm tốt khi xem phim. Sản phẩm được trang bị nền tảng S-Class UI do LG phát triển, hỗ trợ đa nhiệm, là tính năng mà iPhone vào thời điểm đó vẫn chưa được trang bị.
+Việc ra mắt điện thoại màn hình 21:9 được xem là một bước đi trước thời điểm của LG, khi mà tỷ lệ màn hình này mới dần được trở nên phổ biến hơn trong thời gian gần đây trên thị trường smartphone.
+LG Optimus 2X - Smartphone dùng chip lõi kép đầu tiên trên thế giới
+ Ra mắt vào tháng 12/2010, Optimus 2X là chiếc smartphone sở hữu chip lõi kép đầu tiên trên thế giới, khi được trang bị chip Nvidia Tegra 2 (2x1.0GHz). Máy cũng được trang bị một cấu hình "bom tấn" vào thời điểm đó, với bộ nhớ RAM 512MB, bộ nhớ lưu trữ 8GB, hỗ trợ khe cắm thẻ nhớ ngoài. Mặt sau của sản phẩm là camera 8 megapixel, còn mặt trước là camera 1,3 megapixel.
+Sản phẩm được trang bị thỏi pin 1.500mAh, hỗ trợ tháo rời và hoạt động trên nền tảng Android.
+LG G Flex - Smartphone màn hình cong với khả năng tự làm liền vết xước
+Tháng 10/2013, Samsung ra mắt Galaxy Round, chiếc smartphone màn hình cong đầu tiên trên thế giới. Chỉ một tháng sau, LG đã nhanh chóng có câu trả lời với G Flex, chiếc smartphone màn hình cong đầu tiên của hãng.
+Ngoài việc được trang bị một cấu hình mạnh vào thời điểm đó, tính năng đáng chú ý nhất của G Flex đó là khả năng có thể tự làm liền vết xước ở mặt lưng. Sản phẩm được trang bị một lớp màng bảo vệ ở mặt lưng, giúp loại bỏ các vết trầy xước chỉ sau một vài phút. Tuy nhiên, lớp màng này chỉ có tác dụng với các vết xước mỏng và nông, còn các vết xước dày và nghiêm trọng thì sẽ còn phát huy tác dụng.
+Phát Video
+02:32
+Tận mắt xem khả năng làm lành vết xước ở mặt lưng LG G Flex
+LG V10 - Smartphone 2 màn hình để hiển thị các thông báo đến
+Được ra mắt vào tháng 10/2015, LG V10 là chiếc smartphone gây ấn tượng với thiết kế 2 màn hình. Phía trên màn hình chính kích thước 5,7-inch là một màn hình phụ, rộng 2,1-inch và ở chế độ luôn mở, giúp người dùng có thể xem giờ, xem các thông báo, cập nhật đến… mà không cần mở màn hình smartphone.
+LG V10 cũng là một trong những smartphone đầu tiên trên thị trường được trang bị camera kép ở mặt trước, với camera 5 megapixel và một camera góc rộng.
+LG G5 - Chiếc smartphone với thiết kế dạng mô-đun độc đáo
+Vào thời điểm năm 2016, trong khi phần lớn smartphone cao cấp đều có thiết kế nguyên khối với thỏi pin không thể tháo rời, thì LG lại ra mắt G5, chiếc smartphone với thiết kế dạng mô-đun độc đáo, giúp người dùng có thể tháo rời phần thân máy bên dưới để tách rời pin.
+Phần mô-đun tháo rời này còn cho phép người dùng lắp ráp thêm các phụ kiện khác trên chiếc smartphone này để mở rộng thêm các tính năng sử dụng khác, chẳng hạn phụ kiện giúp dễ dàng điều khiển các chức năng camera trên G5 hoặc thỏi pin mở rộng cho smartphone...
+Phát Video
+01:01
+Giới thiệu LG G5 với thiết kế dạng mô-đun độc đáo
+LG V40 ThinQ - Smartphone đầu tiên với camera tele và camera góc rộng
+Tháng 10/2018, LG ra mắt V40 ThinQ, chiếc smartphone cao cấp thế hệ mới của hãng. Ngoài điểm nhấn về một cấu hình mạnh mẽ, chiếc smartphone này còn nổi bật khi được trang bị đến 5 camera, với 3 ở sau và 2 ở trước.
+Theo đó, V40 ThinQ là smartphone đầu tiên được trang bị cụm 3 camera ở mặt lưng, với camera chính 12 megapixel, camera góc rộng 16 megapixel và camera tele 12 megapixel, hỗ trợ zoom quang học 2x. Cụm 3 camera này kết hợp với 2 camera ở trước (8 megapixel tiêu chuẩn và 5 megapixel góc rộng), giúp sản phẩm sở hữu tổng cộng 5 camera.
+LG Wing - Smartphone màn hình xoay độc đáo
+Được ra mắt vào tháng 9 năm ngoái, ít ai ngờ rằng Wing lại chính là chiếc smartphone cao cấp cuối cùng mà LG ra mắt trước khi hãng chính thức rút lui khỏi thị trường di động. Điểm nhấn của sản phẩm đó là thiết kế dạng màn hình xoay. Người dùng có thể sử dụng LG Wing như một chiếc smartphone thông thường, với màn hình 6,8-inch, hoặc có thể chuyển sang "chế độ xoay". Lúc này, màn hình chính của LG Wing sẽ xoay một góc 90 độ, để lộ ra phần màn hình thứ 2 với kích thước 3,9-inch ở bên dưới, tạo thành hình dạng chữ "T".
+LG đã tối ưu hệ thống và giao diện trên sản phẩm để người dùng có thể khai thác kiểu dáng độc đáo của LG ở chế độ xoay. Người dùng có thể sử dụng màn hình thứ hai như một màn hình phụ bổ sung cho giao diện hiển thị trên màn hình chính.
+Phát Video
+01:04
+Giới thiệu các tính năng để khai thác màn hình xoay của LG Wing
+LG Rollable - Chiếc smartphone màn hình cuộc đầu tiên
+Phát Video
+00:11
+LG tung video hé lộ về thiết kế smartphone màn hình cuộn
+Hồi tháng 1 vừa qua, tại triển lãm công nghệ CES 2021, LG đã tung ra một đoạn video để "úp mở" về LG Rollable, chiếc smartphone màn hình cuộn độc đáo của hãng. Sản phẩm sở hữu "màn hình có thể thay đổi kích thước độc đáo", có thể biến từ một chiếc smartphone thành máy tính bảng cỡ nhỏ bằng cách trượt màn hình, như khi mở rộng một cuộn giấy tròn.
+LG Rollable đã lập tức thu hút sự chú ý của giới công nghệ nhờ vào thiết kế độc đáo và các tính năng đầy hứa hẹn. Tuy nhiên, đáng tiếc rằng sản phẩm sẽ không bao giờ được ra mắt.
+Tháng 4/2021 - LG chính thức rút lui khỏi thị trường di động
+Ngày 5/4/2021, LG chính thức xác nhận sẽ đóng cửa bộ phận di động, rút lui khỏi thị trường này sau 6 năm thua lỗ liên tiếp. Như vậy, LG đã kết thúc 19 năm chinh chiến trên thị trường di động, với những thời điểm đã từng đứng trên đỉnh cao.
+Sự ra đi của LG khiến giới công nghệ và nhiều người yêu thích LG cảm thấy tiếc nuối, nhưng  đó là hậu quả tất yếu cho việc không thể tìm được chỗ đứng trên thị trường smartphone đầy khắc nghiệt.
+T.Thủy
+Tổng hợp﻿John Kim thiết lập hệ thống Internet Starlink tại nhà.
+Tháng 10/2020, SpaceX bắt đầu đi vào thử nghiệm phiên bản beta của dịch vụ băng thông rộng vệ tinh "Better Than Nothing". Đây là gói dịch vụ Internet hoạt động dựa trên hệ thống hàng nghìn vệ tinh Starlink đã được công ty phóng lên quỹ đạo thấp của Trái Đất (LEO) mà cần không thông qua các trạm phát sóng mặt đất.
+John Kim, biên tập viên của tạp chí CNET đã nhanh chóng đăng ký tham gia thử nghiệm công nghệ mới này, và chia sẻ cảm nhận của anh trong một bài viết mới đây. 
+Theo Kim, bộ dụng cụ lắp đặt của gói dịch vụ gồm một chảo ăng-ten Starlink, một Wi-Fi router, một bộ nguồn, cáp nối và giá 3 chân.
+Bên trong một bộ dụng cụ Starlink. Ảnh: CNET
+Toàn bộ chi phí cho bộ trang bị này bao gồm thuế, phí vận chuyển, và một tháng dịch vụ là khoảng 594.3 USD (tương đương 13,7 triệu đồng). Theo cảm nhận của Kim, hộp thiết bị mặc dù khá to và cồng kềnh. Tuy nhiên chúng có thiết kế hiện đại và đẹp mắt. 
+Cách để thiết lập hệ thống cũng khá dễ dàng. Bên cạnh việc cắm dây và ổ theo đúng hướng dẫn, người dùng không cần làm gì nhiều. Tuy nhiên, điểm mấu chốt là bạn phải dành đủ không gian cho ăng-ten hướng lên bầu trời. Khi ấy, đĩa sẽ tự động căn chỉnh để kết nối với các vệ tinh ngoài không gian. 
+Để có kết nối tốt, người dùng dịch vụ buộc phải di chuyển tới không gian thoáng đãng, trống trải. Lý do là bởi vật thể như cây cối, mái nhà có thể cản trở đáng kể khả năng bắt tín hiệu vệ tinh. 
+Đặt chảo thu tại đất trống, không có vật cản, là cách tốt nhất để thu sóng Internet.
+Kim bất ngờ trước tốc độ tương đối cao và ổn định của dịch vụ Internet Starlink.
+Với giá cước 99 USD/tháng (tương đương 2,28 triệu đồng), John Kim đo được tốc độ truyền dữ liệu của gói dịch vụ dao động trong khoảng từ 50-150 Mbps, độ trễ khoảng 20-40 ms, một con số ấn tượng. 
+Để so sánh, cước trung bình của 1 tháng dịch vụ Internet tại Việt Nam dao động từ 200.000 - 450.000 đồng, tương ứng với tốc độ đường truyền từ 40 Mbps tới 150 Mbps. Trong khi đó, gói dịch vụ 4G tốc độ cao tại Việt Nam có tốc độ trung bình từ 50 - 100 Mbps tùy vào từng khu vực. 
+Cần lưu ý rằng sóng Internet của dịch vụ được phát từ các vệ tinh có khoảng cách từ 500 - 600 km so với bề mặt Trái Đất. Do đó, chúng sẽ không đạt được tốc độ cao như một số dịch vụ dưới mặt đất. Bù lại, ưu điểm về độ phủ của dịch vụ này là không thể bàn cãi.
+Với những tính chất đặc thù, dịch vụ Internet vệ tinh Starlink chủ yếu có nhiệm vụ phủ sóng Internet tốc độ cao đến những cộng đồng dân cư khu vực vùng sâu vùng xa hoặc nông thôn. Còn đối với những người sống trong đô thị lớn, chắc chắn người dùng sẽ ưu tiên sử dụng mạng từ những nhà cung cấp dịch vụ mặt đất. 
+Theo một thông tin mới đây được chia sẻ bởi Elon Musk - CEO SpaceX, tốc độ dữ liệu của Starlink dự kiến sẽ tăng gấp đôi vào cuối năm 2021. Tính đến tháng 3, Space đã phóng 1.300 vệ tinh trong tổng số 12.000 vệ tinh theo kế hoạch ban đầu.
+Nguyễn Nguyễn
+Tham khảo: CNET﻿Hình ảnh cuối cùng của chiếc iPhone trên cổ của Trần trước khi nó bị chìm xuống nước.
+Vào tháng 3 năm ngoái, một người đàn ông họ Trần trong khi đang chèo thuyền trên hồ Nhật Nguyệt (thuộc huyện Nam Đầu, Đài Loan) thì bất ngờ bị mất thăng bằng và ngã xuống nước, khiến chiếc iPhone, được đặt trong một túi bảo vệ đeo quay cổ, bị tuột ra và chìm sâu xuống đáy hồ.
+Trần đã cố gắng tìm kiếm chiếc iPhone 11 Pro Max của mình nhưng vô vọng. Anh hy vọng rằng túi đựng bảo vệ sẽ giúp chiếc điện thoại nổi lên mặt hồ và một người nào đó sẽ tìm thấy nó.
+Khi sự việc xảy ra, một người bạn của Trần đã nói đùa rằng anh sẽ tìm lại chiếc iPhone 11 Pro Max sau một năm nữa. Không ngờ rằng, lời nói đùa này lại trở thành sự thật.
+Theo đó, Đài Loan đang phải trải qua đợt hạn hán tồi tệ nhất trong vòng 50 năm qua, khiến cho mực nước của hồ Nhật Nguyệt, hồ nước lớn nhất Đài Loan, giảm mạnh và một số khu vực hoàn toàn khô cạn, trong đó có vị trí mà Trần đã đánh rơi chiếc điện thoại của mình.
+Chiếc iPhone bị tuột ra khỏi cổ Trần khi anh bị ngã xuống nước trong lúc chèo thuyền.
+Khi biết thông tin nước hồ cạn, Trần đã quay trở lại đây để tìm kiếm chiếc điện thoại và rất bất ngờ khi tìm thấy chiếc điện thoại của mình vẫn còn nguyên vẹn ở bên trong túi đựng bảo vệ. Người dân địa phương cho biết khu vực mà Trần tìm thấy chiếc điện thoại chưa từng bị cạn nước trong hơn 50 năm qua.
+Trần cho biết anh đã quá phấn khích khi tìm lại được chiếc điện thoại của mình, đến nỗi anh đã mất ngủ trong vài ngày. Điều may mắn không chỉ dừng lại ở đó, khi Trần trở về nhà và cắm sạc, anh đã rất bất ngờ khi chiếc iPhone vẫn có nhận điện và sau đó vẫn có thể sử dụng hoàn toàn bình thường.
+Chiếc iPhone 11 Pro Max vẫn hoạt động được sau một năm nằm dưới đáy hồ.
+Trần đã chia sẻ câu chuyện của mình lên mạng xã hội và nhanh chóng "gây sốt".
+"Tôi chỉ có thể nói rằng túi đựng bảo vệ điện thoại đã phát huy hiệu quả. Không hề có nước bên trong. Tôi rất mừng vì đã tìm lại được chiếc điện thoại của mình sau khi bị thất lạc nó quá lâu", Trần cho biết trên trang Facebook cá nhân.
+Nhiều cư dân mạng đã đặt ra câu hỏi chiếc iPhone 11 Pro Max vẫn "sống sót" sau một năm nằm dưới đáy hồ là nhờ vào chiếc túi đựng bảo vệ, hay nhờ vào độ bền của chiếc iPhone?
+Trong khi đó, nhiều người đã hỏi Trần về thương hiệu của chiếc túi bảo vệ mà anh đã sử dụng, bởi họ tin rằng nhờ vào chiếc túi này, iPhone của Trần mới có thể được nguyên vẹn như vậy.
+Một số dân mạng lại hài hước cho rằng, Trần chính là người được hưởng lợi nhất từ đợt hạn hán lịch sử tại Đài Loan.
+T.Thủy
+Theo SoMag﻿Sau khi ra mắt Mi 11 hồi tháng 1 vừa qua, Xiaomi vừa tiếp tục trình làng thêm một biến thể mới của sản phẩm, với tên gọi Mi 11 Ultra. Điểm nhấn đáng chú ý nhất của sản phẩm đó là sự xuất hiện của màn hình phụ, được tích hợp ngay cạnh camera ở lưng máy, cho phép người dùng có thể sử dụng camera sau để chụp ảnh selfie, thay vì phải dùng camera ở mặt trước.
+Mi 11 Ultra nổi bật với màn hình phụ ở lưng máy.
+Màn hình phụ này có kích thước 1,1 inch, sử dụng công nghệ OLED với độ phân giải 294 x 126. Màn hình có tính năng tiết kiệm năng lượng để không làm ảnh hưởng đến thời lượng sử dụng pin trên sản phẩm. Ngoài ra, Xiaomi cho biết màn hình sẽ có chế độ luôn hiển thị (always-on), để người dùng xem giờ, các thông báo đến, thông tin cập nhật… ngay cả khi úp mặt smartphone xuống bàn.
+Ngoài điểm nhấn về thiết kế 2 màn hình, Xiaomi 11 Ultra còn được trang bị một cấu hình mạnh mẽ, với màn hình 6,8 inch độ phân giải 2K+, sử dụng công nghệ OLED, tần số làm tươi 120Hz. Bên trong sản phẩm là bộ vi xử lý Snapdragon 888 cao cấp nhất của Qualcomm, tùy chọn bộ nhớ RAM 8/12GB, đi kèm bộ nhớ lưu trữ 256/512GB, không hỗ trợ khe cắm thẻ nhớ ngoài.
+Mặt sau của sản phẩm được trang bị cụm 3 camera, bao gồm camera chính 50 megapixel, camera góc rộng 48 megapixel và camera tele 48 megapixel, hỗ trợ zoom quang học 5x. Mặt trước là camera 20 megapixel, được thiết kế dạng "đục lỗ" đặt ngay trong màn hình.
+Màn hình phụ có thể dùng để xem thông tin hoặc sử dụng để chụp ảnh selfie bằng camera sau.
+Xiaomi Mi 11 Ultra được trang bị thỏi pin dung lượng 5.000mAh, hỗ trợ sạc có dây và không dây đều 67W, giúp sạc đầy pin chỉ sau 39 phút. Sản phẩm hỗ trợ kết nối mạng 5G. Khác với phiên bản Mi 11, Mi 11 Ultra đã được Xiaomi trang bị tính năng chống nước và bụi theo chuẩn IP68, cho phép ngâm nước ở độ sâu 1,5m trong thời gian 30 phút.
+Mi 11 Ultra sẽ được bán ra đầu tiên tại thị trường Trung Quốc với mức giá khởi điểm 5.999 tệ (tương đương 900 USD) và tại châu Âu giá 1.199 Euro. Hiện chưa rõ thời điểm sản phẩm sẽ bán ra tại các thị trường khác.
+Phát Video
+00:33
+Giới thiệu Mi 11 Ultra với 2 màn hình độc đáo
+Phát Video
+01:52
+Thực tế Mi 11 Ultra - Smartphone 2 màn hình của Xiaomi
+Xiaomi Mi 11i
+Ngoài Mi 11 Ultra, Xiaomi cũng giới thiệu thêm một phiên bản Mi 11i giá rẻ.
+Về cấu hình cơ bản, Mi 11i không kém nhiều so với Mi 11 Ultra, cũng được trang bị chip Snapdragon 888 cao cấp của Qualcomm, nhưng chỉ có bộ nhớ RAM 8GB (không có tùy chọn 12GB), đi kèm bộ nhớ lưu trữ 128GB và 256GB.
+Sản phẩm được trang bị màn hình 6,67 inch độ phân giải Full HD+ (2400x1080), sử dụng công nghệ AMOLED với tần số làm tươi 120Hz. Mặt sau cũng là cụm 3 camera, với camera chính 108 megapixel, camera góc rộng 8 megapixel và camera 5 megapixel để chụp ảnh macro. Mặt trước là camera 20 megapixel.
+Mi 11i dùng thỏi pin dung lượng 4.520mAh, hỗ trợ sạc nhanh 30W. Sản phẩm được trang bị cảm biến vân tay ở cạnh bên, tích hợp vào nút nguồn, thay vì được đặt vào màn hình.
+Điểm nhấn đáng chú ý nhất của Mi 11i là mức giá "mềm" so với cấu hình, khi sản phẩm sẽ được bán ra đầu tiên tại thị trường châu Âu với mức giá 649 Euro.
+Phát Video
+00:29
+Giới thiệu Xiaomi Mi 11i - Smartphone cấu hình mạnh, giá "mềm"
+Xiaomi Mi 11 Lite
+Xiaomi Mi 11 Lite cũng là một phiên bản giá rẻ thuộc dòng smartphone Mi 11. So với các phiên bản khác, Mi 11 Lite có cấu hình thấp hơn, sử dụng chip xử lý Snapdragon 780G (đối với phiên bản hỗ trợ mạng 5G) hoặc Snapdragon 732 (đối với phiên bản chỉ hỗ trợ mạng 4G), bộ nhớ RAM 8GB, đi kèm tùy chọn lưu trữ 128GB hoặc 256GB (phiên bản mạng 4G có thêm tùy chọn bộ nhớ 6/64GB).
+Sản phẩm có màn hình 6,55 inch độ phân giải Full HD+, sử dụng công nghệ AMOLED với tần số làm tươi 90Hz.
+Mặt lưng là cụm 3 camera, bao gồm camera chính 64 megapixel, camera góc rộng 8 megapixel và camera 5 megapixel để chụp ảnh macro. Mặt trước là camera 20 megapixel dạng đục lỗ.
+Mi 11 Lite được trang bị thỏi pin dung lượng 4.250mAh, hỗ trợ sạc nhanh 33W. Sản phẩm sẽ bán ra đầu tiên tại thị trường Trung Quốc vào ngày 4/4 tới đây, với mức giá khởi điểm 2.299 tệ (tương đương 350 USD) cho tùy chọn bộ nhớ 8/128GB. Phiên bản Mi 11 Lite (4G) với bộ nhớ 6/64GB sẽ được bán ra với giá 299 Euro tại thị trường châu Âu.
+Phát Video
+00:16
+Giới thiệu Mi 11 Lite - Smartphone tầm trung mới của Xiaomi
+Phát Video
+13:21
+Thực tế Mi 11 Lite - Smartphone tầm trung mới của Xiaomi
+Vòng đeo tay thông minh Mi Band 6
+Ngoài loạt smartphone Mi 11, Xiaomi cũng đã ra mắt vòng đeo tay thông minh Mi Band 6 mới nhất của hãng, với nhiều thay đổi cả về thiết kế lẫn tính năng.
+So với phiên bản Mi Band 5 ra mắt vào năm ngoái, Mi Band 6 được thiết kế với màn hình tràn viền, bo tròn cả ở 4 cạnh, với kích thước 1,56 inch, sử dụng công nghệ AMOLED. Sản phẩm được trang bị tính năng theo dõi nhịp tim suốt 24 giờ và quản lý mức Oxy trong máu SpO2, giúp quản lý chất lượng giấc ngủ tốt hơn.
+Mi Band 6 có 30 chế độ theo dõi hoạt động khác nhau và tự động phát hiện 6 hoạt động tập thể dục khác nhau để theo dõi quá trình vận động của người dùng. Sản phẩm được trang bị tính năng chống nước với độ sâu lên đến 50m, giúp người dùng thoải mái mang sản phẩm để bơi lội hoặc vận động dưới nước.
+Về pin, Mi Band 6 cho thời lượng pin sử dụng 14 ngày, nhiều hơn thời lượng pin sử dụng 10 ngày của Mi Band 5.
+Sản phẩm sẽ được bán ra đầu tiên tại thị trường Trung Quốc, với mức giá chưa được tiết lộ.
+Phát Video
+05:27
+Mở hộp và thực tế vòng thông minh Mi Band 6
+T.Thủy
+Theo PA/GSMArena﻿Hội nghị thượng đỉnh năm nay với chủ đề "Xây dựng một thế giới thông minh, được kết nối đầy đủ", diễn ra từ ngày 12-14/4, với một số phiên họp đột phá, nơi các chuyên gia trong ngành từ khắp nơi trên thế giới có thể chia sẻ những hiểu biết độc đáo của họ và thảo luận về các xu hướng trong tương lai.
+Eric Xu, Chủ tịch luân phiên của Huawei, đã chia sẻ về kết quả hoạt động kinh doanh của công ty trong năm 2020 cũng như 5 sáng kiến chiến lược trong tương lai.
+Eric Xu, Chủ tịch luân phiên của Huawei, chia sẻ về kết quả hoạt động kinh doanh của công ty trong năm 2020.
+Theo ông Xu, các sáng kiến chiến lược của Huawei bao gồm: Tối ưu hóa danh mục đầu tư để tăng khả năng phục hồi kinh doanh; Tối đa hóa giá trị 5G và xác định 5.5G với các công ty cùng ngành để thúc đẩy sự phát triển của truyền thông di động; Cung cấp trải nghiệm liền mạch, lấy người dùng làm trung tâm và trải nghiệm thông minh trên tất cả các tình huống của người dùng; Đổi mới để giảm tiêu thụ năng lượng vì một thế giới carbon thấp và giải quyết các thách thức về tính liên tục của nguồn cung cấp.
+Trong bài phát biểu, Giám đốc Hội đồng quản trị kiêm Chủ tịch Viện Nghiên cứu Chiến lược của Huawei, William Xu chia sẻ về những thách thức sẽ ảnh hưởng đến phúc lợi xã hội trong thập kỷ tới, bao gồm cả dân số già và mức tiêu thụ năng lượng ngày càng cao. Ông đã theo đuổi triển vọng của Huawei về thế giới thông minh năm 2030, bao gồm 9 thách thức công nghệ và các hướng đề xuất cho các nỗ lực nghiên cứu. Bao gồm:
+- Định nghĩa 5.5G để hỗ trợ hàng trăm tỷ loại kết nối khác nhau.
+- Phát triển quang học kích thước nano để tăng khả năng sợi quang theo cấp số nhân.
+- Tối ưu hóa các giao thức mạng để kết nối mọi thứ.
+- Cung cấp sức mạnh tính toán tiên tiến đủ mạnh để hỗ trợ thế giới thông minh.
+- Trích xuất kiến thức từ một lượng lớn dữ liệu để thúc đẩy những đột phá trong AI công nghiệp.
+- Vượt xa kiến trúc von Neumann cho các hệ thống lưu trữ dày đặc hơn 100 lần.
+- Kết hợp tính toán và cảm biến để có trải nghiệm siêu thực tế, đa phương thức.
+- Giúp mọi người chủ động hơn trong việc quản lý sức khỏe của mình thông qua việc tự theo dõi liên tục các dấu hiệu sinh tồn của cá nhân.
+- Xây dựng một Internet Năng lượng thông minh để tạo ra, lưu trữ và tiêu thụ điện xanh hơn.

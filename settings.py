@@ -1,6 +1,6 @@
 import os
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
-DATA_PATH = os.path.join(DIR_PATH, 'data/collection')
+DATA_PATH = os.path.join(DIR_PATH, 'data/collections')
 STOP_WORDS = 'vietnamese-stopwords.txt'
 SYNONYM_PATH = 'synonym_vietnamese.txt'
 DICTIONARY_PATH = 'dictionary.pkl'
