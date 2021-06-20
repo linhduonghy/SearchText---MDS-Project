@@ -20,6 +20,7 @@ class FileReader(object):
         return s
 
     def load_stopwords(self):
+        
         with open(self.filePath, encoding='utf-8') as f:
             stopwords = set([w.strip().replace(' ', '_')
                              for w in f.readlines()])
@@ -35,8 +36,14 @@ class FileReader(object):
         with open(self.filePath, encoding='utf8') as f:
             for line in f.readlines():
                 if len(line.strip().split()) == 2:
-                    x, y = line.strip().split()                
-                synonym[y] = x
+                    x, y = line.strip().split()         
+                    if x in synonym:
+                        synonym[y] = synonym[x]
+                    elif y in synonym:
+                        synonym[x] = synonym[y]
+                    else:
+                        synonym[x] = x
+                        synonym[y] = x
         return synonym
 
     def load_data(self):

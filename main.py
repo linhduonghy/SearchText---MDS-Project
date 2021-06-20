@@ -1,65 +1,48 @@
 # -*- coding: utf-8 -*-
 import os
-import settings
-from preprocessData import NLP, Dictionary
-from fileProcess import FileReader, FileWriter
+from preprocess_data import NLP, Dictionary
 from extract_feature import TFIDF
 from similarity import Similarity
+from process_corpus import Corpus
+from process_query import compute_tf_idf_query
 
 # load corpus
-corpus = []
-files = [] # list filename of documents
+corpusObj = Corpus()
 
-nlp = NLP()
+# load file
+files = corpusObj.load_files()
 
-for filename in os.listdir(settings.DATA_PATH):
-    files.append(filename)
-    # text = FileReader(os.path.join(settings.DATA_PATH, filename)).read()
-    # nlp.set_text(text)
-    # corpus.append(nlp.preprocess())
-
-# build dictionary from corpus
-# Dictionary(corpus).build_dictionary()
+# # ***
+# corpus = corpusObj.load_corpus()
+# corpusObj.build_dictionary(corpus)
 
 # load dictionary
-dictionary = FileReader(settings.DICTIONARY_PATH).load_data()
-# print(dictionary)
-# # init TFIDF with corpus input
-# tfidf = TFIDF(corpus)
+dictionary = corpusObj.load_dictionary()
 
-# # save idf value to disk
-# tfidf.save_idf()
+# ***
+# init TFIDF with corpus, dictionary
+# compute idf, tf_idf then save to file 
+# tfidf = TFIDF(corpus, dictionary)
 
-# load idf
-idf = FileReader(settings.IDF_PATH).load_data()
+# load idf, tf_idf
+idf, tf_idf = corpusObj.load_idf_tfidf()
 
-# # compute tf-idf value of whole document 
-# tf_idf = tfidf.compute_tf_idf()
-
-# # # save tf-idf value of who document to disk
-# FileWriter(settings.TFIDF_PATH).save_data(tf_idf)
-
-# load tf_idf of whole document
-tf_idf = FileReader(settings.TFIDF_PATH).load_data()
-# print(tf_idf)
-
-# query input as document
+# Query text
 query_path = 'data\\query_input.txt'
-text = FileReader(query_path).read()
+tf_idf_query = compute_tf_idf_query(query_path, dictionary, idf)
 
-# init TFIDF with dictionary and idf value
-tfidf = TFIDF(dictionary=dictionary, idf=idf)
-# compute query tf_idf
-query_tf_idf = tfidf.compute_query_tf_idf(NLP(text).preprocess())
+# calculate similarity between tf_idf_query with tf_idf of corpus
+similarity = Similarity()
+# similarities = similarity.cosine_similarity_sprase_matrix(tf_idf, tf_idf_query).flatten()
+similarities = []
+for tf_idf_e in tf_idf:
+    similarities.append(similarity.cosine_similarity(tf_idf_e.toarray()[0], tf_idf_query.toarray()[0]))
 
-# calculate similarity between query_tf_idf with tf_idf collection
-similarity = Similarity().similarity(tf_idf, query_tf_idf).flatten()
-
+# display similarity descending between query input with corpus
 # sort similarity
-similarity, files = zip(*sorted(zip(similarity, files)))
+similarities, files = zip(*sorted(zip(similarities, files), reverse=True))
+print('\n10 file có độ tương đồng giảm dần:\n')
+sim_re, files_res = similarities[:10], files[:10]
 
-print('\nSimilarity descending:')
-sim_re, files_res = similarity[-10:], files[-10:]
-
-for i in range(len(files_res)-1, -1, -1):
+for i in range(len(files_res)):
     print('%s %f' % (files_res[i], sim_re[i]))

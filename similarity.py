@@ -1,11 +1,16 @@
-# from numpy import dot
-# from numpy.linalg import norm
 from sklearn.metrics.pairwise import cosine_similarity
-
 class Similarity(object):
     """ Class calculate measure similarity between query vector and whole vector document """
 
-    def similarity(self, tf_idf, query_tf_idf):
+    @staticmethod
+    def dot(v1, v2):
+        return sum(a * b for a, b in zip(v1, v2))
+
+    def cosine_similarity(self, v1, v2):
+        "cosine similarity of v1 to v2: (v1.v2)/{||v1||*||v2||)"
+        return self.dot(v1, v2) / (self.dot(v1, v1)**.5 * self.dot(v2,v2)**.5)
+
+    def cosine_similarity_sprase_matrix(self, tf_idf, query_tf_idf):
         """ calculate similarity using cosine similarity(sklearn)
 
         Args:
@@ -16,9 +21,3 @@ class Similarity(object):
             list: cosine similarity with list vector whole document
         """
         return cosine_similarity(tf_idf, query_tf_idf)
-
-    # def cosine_similarity(self, vector_x, vector_y):
-    #     return dot(vector_x, vector_y) / (norm(vector_x) * norm(vector_y))
-
-    # def euclidean_distance(self, vector_x, vector_y):
-    #     return norm(vector_x - vector_y)

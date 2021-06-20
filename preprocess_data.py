@@ -1,6 +1,7 @@
-from fileProcess import FileReader, FileWriter
 import settings
+from fileProcess import FileReader, FileWriter
 from pyvi import ViTokenizer
+from string import punctuation
 
 class NLP(object):
     """ Class Natural Language Processing
@@ -23,18 +24,20 @@ class NLP(object):
     def __set_synonym(self):
         self.synonym = FileReader(settings.SYNONYM_PATH).load_synonym()        
 
-    def __segmentation(self):
+    def __remove_punctuation_and_number(self):
+        """ remove punctuation and number character in text
+        """
+        self.text = self.text.translate({ord(c): " " for c in settings.PUNCTUATION_NUMBER_CHARACTER})
+
+    def __segment_words(self):
         """ word segmentation using Pyvi """
         self.text = ViTokenizer.tokenize(self.text)
+        self.words = self.text.split()
 
-    def __split_words(self):
-        """ split word using word segmentation and 
-            remove special character
+    def __remove_stopwords(self):
+        """ remove stopwords
         """
-        try:
-            self.words =  [w.strip(settings.SPECIAL_CHARACTER).lower() for w in self.text.split()]
-        except TypeError:
-            self.words = []
+        self.words = [word for word in self.words if word not in self.stopwords and word != '']
 
     def __replace_synonym(self):
         """ replace synonyms to original word """
@@ -46,18 +49,11 @@ class NLP(object):
                 words.append(word)
         self.words = words
 
-    def __remove_stopwords(self):
-        """ remove stopwords
-        """
-        self.words = [word for word in self.words if word not in self.stopwords and word != '']
-
     def preprocess(self):
-
-        self.__segmentation()
-        self.__split_words()
-        self.__replace_synonym()
+        self.__remove_punctuation_and_number()
+        self.__segment_words()
         self.__remove_stopwords()
-
+        self.__replace_synonym()        
         return self.words
 
 class Dictionary(object):
@@ -66,13 +62,13 @@ class Dictionary(object):
     def __init__(self, corpus):
         self.corpus = corpus
 
-    def build_dictionary(self):
+    def build_save_dictionary(self):
         print('Building dictionary')
-        dictionary = set()
+        dictionary = set() # unique list
         
         for document in self.corpus:
             for word in document:
                 dictionary.add(word)
         
-        # save dictionary to disk
+        # save dictionary to file
         FileWriter(settings.DICTIONARY_PATH).save_data(sorted(list(dictionary)))
