@@ -33,7 +33,7 @@ class Corpus:
 
     def load_dictionary(self):
 
-        return FileReader(settings.DICTIONARY_PATH).load_data()
+        return FileReader(settings.DICTIONARY_PATH).load_dict_data()
 
     def load_idf_tfidf(self):
 

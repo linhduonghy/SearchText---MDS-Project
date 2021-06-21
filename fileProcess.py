@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import pickle
-
+import json
+from scipy.sparse import csr_matrix
+import numpy as np
 class FileReader(object):
     
     """ Class load data from disk: stopwords, dictionary, tf-idf """
@@ -49,17 +51,17 @@ class FileReader(object):
     def load_data(self):
         with open(self.filePath, 'rb') as f:
             return pickle.load(f)
+    
+    def load_dict_data(self):
+        with open(self.filePath, encoding='utf-8') as f:
+            data = f.read()        
+        res = data.split(',')
+        return res[:len(res) - 1]
 
 class FileWriter(object):
     """ Class save data to disk """
     def __init__(self, path):
         self.path = path
-
-    # def save_dictionary(self, data):
-    #     with open(self.path, 'wb') as f:
-    #         # for word in data:
-    #         #     f.write('%s\n' % word)
-    #         pickle.dump(data, f)
 
     # def save_tf_idf(self, tf_idf):
     #     with open(self.path, 'wb') as f:
@@ -68,3 +70,14 @@ class FileWriter(object):
     def save_data(self, data):
         with open(self.path, 'wb') as f:
             pickle.dump(data, f)
+
+    def save_dict_data(self, data):
+        with open(self.path, 'w', encoding='utf-8') as f:
+            for d in data:
+                f.write(d + ',')
+
+    def save_tf_idf(self, sparse_matrix):
+        sparse_matrix.maxprint = sparse_matrix.count_nonzero()
+        with open("tfidf.txt","w") as file:
+            file.write(str(sparse_matrix)) 
+            file.close()

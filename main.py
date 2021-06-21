@@ -19,9 +19,9 @@ files = corpusObj.load_files()
 # load dictionary
 dictionary = corpusObj.load_dictionary()
 
-# ***
-# init TFIDF with corpus, dictionary
-# compute idf, tf_idf then save to file 
+# # ***
+# # init TFIDF with corpus, dictionary
+# # compute idf, tf_idf then save to file 
 # tfidf = TFIDF(corpus, dictionary)
 
 # load idf, tf_idf

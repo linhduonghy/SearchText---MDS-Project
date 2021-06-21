@@ -11,13 +11,10 @@ class TFIDF(object):
 
     """
     def __init__(self, corpus=None, dictionary=None, idf=None):
-        self.corpus = corpus
-        if dictionary == None: # load dictionary
-            self.dictionary = FileReader(settings.DICTIONARY_PATH).load_data()
-        else:
-            self.dictionary = dictionary
+        self.corpus = corpus        
+        self.dictionary = dictionary
         if idf == None:
-            self.idf = self.save_idf()
+            self.save_idf()
             # save tf idf 
             self.save_tf_idf()
         else:
@@ -37,16 +34,13 @@ class TFIDF(object):
             dict: idf value every word in dictionary
         """
         idf = {}
-
         D = len(self.corpus)
-
         for word in self.dictionary:
             count = 0
             for document in self.corpus:
                 if word in document:
                     count += 1
-            idf[word] = 1 + math.log((D) / (count + 1))
-
+            idf[word] = math.log(D / count)
         return idf
 
     def __compute_tf_idf(self):
@@ -63,9 +57,8 @@ class TFIDF(object):
             for word in self.corpus[row]:
                 tf_idf_value = (number_of_words_in_document[word] / float(len(self.corpus[row]))) * self.idf[word]
                 sparse_matrix[row, vocal[word]] = tf_idf_value              
-        tf_idf_matrix = preprocessing.normalize(sparse_matrix, norm='l2', axis=1, copy=True, return_norm=False)
 
-        return tf_idf_matrix
+        return sparse_matrix
 
     def save_tf_idf(self):
         tfidf = self.__compute_tf_idf()
@@ -89,6 +82,5 @@ class TFIDF(object):
                 if word in self.dictionary:                                   
                     tf_idf_value = (number_of_words_in_document[word] / float(len(document))) * self.idf[word]
                     sparse_matrix[row, vocal[word]] = tf_idf_value                   
-        tf_idf_matrix = preprocessing.normalize(sparse_matrix, norm='l2', axis=1, copy=True, return_norm=False)
 
-        return tf_idf_matrix
+        return sparse_matrix

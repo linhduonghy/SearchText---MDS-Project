@@ -71,4 +71,4 @@ class Dictionary(object):
                 dictionary.add(word)
         
         # save dictionary to file
-        FileWriter(settings.DICTIONARY_PATH).save_data(sorted(list(dictionary)))
+        FileWriter(settings.DICTIONARY_PATH).save_dict_data(sorted(list(dictionary)))
