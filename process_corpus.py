@@ -12,8 +12,12 @@ class Corpus:
 
     def load_files(self):
         files = [] # list filename of documents
+        lens = []
         for filename in os.listdir(self.data_path):
             files.append(filename)
+            with (open(os.path.join(self.data_path, filename), 'r', encoding='utf-8')) as f:
+                lens.append(len(f.read().split()))
+        # print(lens)
         return files
 
 

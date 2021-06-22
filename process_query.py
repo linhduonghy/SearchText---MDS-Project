@@ -6,6 +6,7 @@ from preprocess_data import NLP
 def compute_tf_idf_query(query_path, dictionary, idf):
 
     query_text = FileReader(query_path).read()
+    # print(len(query_text.split()))
     # init TFIDF with dictionary and idf value
     tfidf = TFIDF(dictionary=dictionary, idf=idf)
     # compute query tf_idf

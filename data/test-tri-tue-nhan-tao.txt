@@ -1,0 +1,257 @@
+Học máy (tiếng Anh: machine learning) là một lĩnh vực của trí tuệ nhân tạo liên quan đến việc nghiên cứu và xây dựng các kĩ thuật cho phép các hệ thống "học" tự động từ dữ liệu để giải quyết những vấn đề cụ thể. Ví dụ như các máy có thể "học" cách phân loại thư điện tử xem có phải thư rác (spam) hay không và tự động xếp thư vào thư mục tương ứng. Học máy rất gần với suy diễn thống kê (statistical inference) tuy có khác nhau về thuật ngữ.
+
+Học máy có liên quan lớn đến thống kê, vì cả hai lĩnh vực đều nghiên cứu việc phân tích dữ liệu, nhưng khác với thống kê, học máy tập trung vào sự phức tạp của các giải thuật trong việc thực thi tính toán. Nhiều bài toán suy luận được xếp vào loại bài toán NP-khó, vì thế một phần của học máy là nghiên cứu sự phát triển các giải thuật suy luận xấp xỉ mà có thể xử lý được.
+
+Học máy có hiện nay được áp dụng rộng rãi bao gồm máy truy tìm dữ liệu, chẩn đoán y khoa, phát hiện thẻ tín dụng giả, phân tích thị trường chứng khoán, phân loại các chuỗi DNA, nhận dạng tiếng nói và chữ viết, dịch tự động, chơi trò chơi và cử động rô-bốt (robot locomotion).
+
+Dưới góc nhìn của trí tuệ nhân tạo, động lực chính học máy bởi là nhu cầu thu nhận tri thức (knowledge acquisition). Thật vậy, trong nhiều trường hợp ta cần kiến thức chuyên gia là khan hiếm (không đủ chuyên gia ngồi phân loại lừa đảo thẻ tín dụng của tất cả giao dịch hàng ngày) hoặc chậm vì một số nhiệm vụ cần đưa ra quyết định nhanh chóng dựa trên xử lý dữ liệu khổng lồ (trong mua bán chứng khoán phải quyết định trong vài khoảng khắc của giây chẳng hạn) và thiếu ổn định thì buộc phải cần đến máy tính. Ngoài ra, đại đa số dữ liệu sinh ra ngày nay chỉ phù hợp cho máy đọc (computer readable) tiềm tàng ngưồn kiến thức quan trọng. Máy học nghiên cứu cách thức để mô hình hóa bài toán cho phép máy tính tự động hiểu, xử lý và học từ dữ liệu để thực thi nhiệm vụ được giao cũng như cách đánh giá giúp tăng tính hiệu quả.
+
+Tom Mitchell, giáo sư nổi tiếng của Đại học Carnegie Mellon University - CMU định nghĩa cụ thể và chuẩn mực hơn như sau: "Một chương trình máy tính CT được xem là học cách thực thi một lớp nhiệm vụ NV thông qua trải nghiệm KN, đối với thang đo năng lực NL nếu như dùng NL ta đo thấy năng lực thực thi của chương trình có tiến bộ sau khi trải qua KN" (máy đã học).[1]
+
+Biểu diễn
+Biểu diễn (tiếng Anh: representation) là một trong những vấn đề quan trọng của học máy. Biểu diễn ở đây có thể hiểu làm sao ghi mã (encode) những thông tin của thế giới thật giúp hoàn thành nhiệm vụ một cách hiệu quả và đầy đủ nhất có thể. Thông tin ở đây bao hàm cả thông tin về dữ liệu đầu vào, đầu ra hay các trạng thái của hệ thống; cũng như cách đánh giá hiệu quả của chương trình.
+
+Thông thường, trong học máy người ta hay xây dựng các mô hình sử dụng những biến ngẫu nhiên cho việc biểu diễn dữ liệu và nội trạng thái của hệ thống. Ví dụ: dùng biến ngẫu nhiên để biểu thị cho tính chất của email là spam (tương ứng giá trị 0) hay là bình thường (tương ứng 1). Mối tương quan giữa các biến ngẫu nhiên này có thể sử dụng ví dụ như mô hình xác suất dạng đồ thị để miêu tả. Mặt khác, để đo hiệu quả có thể dùng các hàm thiệt hại (hay hàm tiện ích, trong tiếng Anh là loss function và utility function tương ứng).
+
+Tính phổ quát
+Một trong những trọng tâm khác của học máy là đạt được tính phổ quát (tiếng Anh: generalization), nói cách khác là tính chất của chương trình có thể làm việc tốt với dữ liệu mà nó chưa gặp bao giờ (tiếng Anh: unseen data). Một chương trình chỉ hiệu quả với dữ liệu đã gặp nhìn chung không có nhiều tính hữu dụng.
+
+Lấy ví dụ về xếp thư điện tử tự động như trên, một hệ thống tự động sau khi trải qua quá trình học từ dữ liệu ("training") có thể suy diễn một số nguyên tắc riêng (chẳng hạn như xem xét nội dung: nếu thư được viết bằng tiếng Anh mà chứa một số từ như "porn", "sell", "good product" hoặc người gửi đến từ Somalia trong khi người nhận ở Hà Nội không thân quen nhau) để quyết định xem có phải là thư rác hay không. Tuy nhiên, nếu như trong dữ liệu bài giảng (training data) có ngôn ngữ khác trong thực tế (tiếng Việt thay vì tiếng Anh) hoặc thậm chí không phải dạng thuần văn bản (dạng ảnh khiến cho bóc tách nội dung khó hơn hoặc không thể) thì rất có thể máy sẽ dự báo không chính xác nữa.
+
+Một số chương trình có thể tự động cập nhật trong thời gian thực (ví dụ như người sử dụng có chỉ ra rằng thư bị sắp xếp sai danh mục).
+
+Tương tác với con người
+Một số hệ thống học máy nỗ lực loại bỏ nhu cầu trực giác của con người trong việc phân tích dữ liệu, trong khi các hệ thống khác hướng đến việc tăng sự cộng tác giữa người và máy. Không thể loại bỏ hoàn toàn tác động của con người vì các nhà thiết kế hệ thống phải chỉ định cách biểu diễn của dữ liệu và những cơ chế nào sẽ được dùng để tìm kiếm các đặc tính của dữ liệu. Học máy có thể được xem là một nỗ lực để tự động hóa một số phần của phương pháp khoa học. Một số nhà nghiên cứu học máy tạo ra các phương pháp bên trong các khuôn khổ của thống kê Bayes.
+
+Tương quan với Khai phá dữ liệu
+Khai phá dữ liệu và học máy là hai khái niệm hay bị nhầm lẫn. Hai lĩnh vực này nhìn chung gần với nhau và đôi khi dùng chung nhiều phương pháp, công cụ nhưng khác biệt chính là ở mục tiêu:
+
+Khai phá dữ liệu: thường mục tiêu là tìm kiếm những thông tin, tri thức hoàn toàn mới tiềm năng có ích trong nguồn dữ liệu.
+Học máy: dự đoán một số thông tin của dữ liệu dựa trên những đặc tính đã biết.
+Các loại giải thuật
+Các thuật toán học máy được phân loại theo kết quả mong muốn của thuật toán. Các loại thuật toán thường dùng bao gồm:
+
+Học có giám sát—trong đó, thuật toán tạo ra một hàm ánh xạ dữ liệu vào tới kết quả mong muốn. Một phát biểu chuẩn về một việc học có giám sát là bài toán phân loại: chương trình cần học (cách xấp xỉ biểu hiện của) một hàm ánh xạ một vector {\displaystyle [X_{1},X_{2},\ldots X_{N}]}{\displaystyle [X_{1},X_{2},\ldots X_{N}]} tới một vài lớp bằng cách xem xét một số mẫu dữ liệu - kết quả của hàm đó.
+Học không giám sát—mô hình hóa một tập dữ liệu, không có sẵn các ví dụ đã được gắn nhãn.
+Học nửa giám sát—kết hợp các ví dụ có gắn nhãn và không gắn nhãn để sinh một hàm hoặc một bộ phân loại thích hợp.
+Học tăng cường—trong đó, thuật toán học một chính sách hành động tùy theo các quan sát về thế giới. Mỗi hành động đều có tác động tới môi trường, và môi trường cung cấp thông tin phản hồi để hướng dẫn cho thuật toán của quá trình học.
+Chuyển đổi—tương tự học có giám sát nhưng không xây dựng hàm một cách rõ ràng. Thay vì thế, cố gắng đoán kết quả mới dựa vào các dữ liệu huấn luyện, kết quả huấn luyện, và dữ liệu thử nghiệm có sẵn trong quá trình huấn luyện.
+Học cách học—trong đó thuật toán học thiên kiến quy nạp của chính mình, dựa theo các kinh nghiệm đã gặp.
+Phân tích hiệu quả các thuật toán học máy là một nhánh của ngành thống kê, được biết với tên lý thuyết học điện toán.
+
+Các chủ đề về máy học
+Danh sách các chủ đề của môn học này:
+
+Mô hình hóa các hàm mật độ xác suất điều kiện: hồi quy và phân loại
+Mạng nơ-ron
+Máy học cực độ (Extreme learning machine)
+Cây quyết định
+Lập trình biểu thức gen
+Lập trình di truyền
+Hồi quy quá trình Gauss
+Phân tích biệt thức tuyến tính
+k láng giềng gần nhất
+Độ dài thông điệp tối thiểu
+Cảm tri nguyên
+Hàm cơ sở xuyên tâm
+Máy vector hỗ trợ (Support Vector Machine)
+Mô hình hóa các hàm mật độ xác suất qua các mô hình phát sinh:
+Thuật toán cực đại kì vọng
+Các mô hình đồ họa gồm mạng Bayes và mạng Markov
+Ánh xạ topo phát sinh
+Các kỹ thuật suy luận xấp xỉ đúng:
+Chuỗi Markov phương pháp Monte Carlo
+Phương pháp biến thiên
+Tối ưu hóa: hầu hết các phương pháp trên đều sử dụng tối ưu hóa hoặc là các thể hiện của các thuật toán tối ưu hóa.
+Xem thêm
+Trí tuệ nhân tạo
+Trí tuệ điện toán
+Khai phá dữ liệu
+Nhận dạng mẫu
+Các ẩn bản quan trọng trong học máy (khoa học máy tính)
+Các ấn bản quan trọng trong học máy (thống kê)
+Rô-bốt tự hành
+Lập trình suy diễn lôgic
+Tham khảo
+Bishop C. M. (1995). Neural Networks for Pattern Recognition, Nhà in Đại học Oxford. ISBN 0-19-853864-2
+Richard O. Duda, Peter E. Hart, David G. Stork (2001) Pattern classification (ấn bản lần 2), Wiley, New York, ISBN 0-471-05669-3.
+MacKay D. J. C. (2003). Information Theory, Inference, and Learning Algorithms, Nhà in Đại học Cambridge. ISBN 0-521-64298-1
+Sholom Weiss và Casimir Kulikowski (1991). Computer Systems That Learn, Morgan Kaufmann. ISBN 1-55860-065-5
+^ * Mitchell, T. (1997). Machine Learning, McGraw Hill. ISBN 0-07-042807-7, p.2.
+Liên kết ngoài
+Tài nguyên chung
+UCI description
+MLnet Mailing List
+Kmining List of machine learning, data mining and KDD scientific conferences
+Book "Intelligent Systems and their Societies" của Walter Fritz
+Links from Open Directory Project
+Eruditionhome - nơi chứa nhiều mục đề về Học máy
+MLpedia - Từ điển bách khoa wiki dành riêng cho chủ đề Học máy
+Tạp chí và Hội thảo
+Journal of Machine Learning Research
+Machine Learning Journal
+Machine Learning papers tại CiteSeer
+NIPS: Neural Information Processing Systems
+ICML: International Conference on Machine Learning Lưu trữ 2005-12-18 tại Wayback Machine
+Nhóm nghiên cứu
+Machine Learning tại Đại học Hebrew
+Machine Learning and Natural Language Processing tại Đại học Freiburg
+Machine Learning and Data Mining in Bioinformatics Group tại TU München
+Machine Learning and Biological Computation Group tại Đại học Bristol
+Machine Learning and Applied Statistics Lưu trữ 2005-06-30 tại Wayback Machine của Microsoft Research
+Department of Knowledge Technologies của Học viện Jozef Stefan
+Statistical Multimedia Learning Group tại Đại học British Columbia
+Machine Learning Systems Group tại Jet Propulsion Laboratory, Học viện Kỹ thuật California
+Department of Empirical Inference tại Viện Max Planck về điều khiển học sinh học, Tübingen
+Machine Learning Group tại Đại học Toronto
+Intelligent Data Analysis Group Lưu trữ 2007-06-27 tại Wayback Machine tại Fraunhofer FIRST, Berlin
+Machine Learning Group tại Đại học Tự do Bruxelles
+Phần mềm
+Chương trình mạng nơ ron đa lớp (Multi Layer Neural Network) và mạng nơ ron tự tổ chức (Self Organizing Maps) có giải thích bằng tiếng Việt. Lưu trữ 2011-07-15 tại Wayback Machine
+Sử dụng phần mềm mạng nơ ron 3 lớp Spice-MLP Lưu trữ 2011-09-29 tại Wayback Machine
+Sử dụng phần mềm mạng tự tổ chức Spice-SOM Lưu trữ 2011-09-29 tại Wayback Machine
+Hướng dẫn sử dụng mạng nơ ron trong các ứng dụng thực tế Lưu trữ 2011-06-26 tại Wayback Machine trong đó có minh họa phân loại ảnh khuôn mặt, ảnh người đi bộ, ảnh xe hơi, dự báo chứng khoán và một số ví dụ khác
+SPIDER - một hộp công cụ học máy hoàn chỉnh cho Matlab
+PRTools PRTools là một gói phần mềm hoàn chỉnh khác tương tự SPIDER và được cài trong Matlab. SPIDER có vẻ có nhiều hỗ trợ mức thấp, nhưng các công cụ của PRTools có phần đa dạng hơn. PRTools có sách và tài liệu tốt. Cả SPIDER và PRTools được cung cấp miễn phí trên mạng cho các ứng dụng phi thương mại.
+Orange, bộ chương trình học máy với các script viết bằng Python và giao diện lập trình đồ họa
+YALE là một công cụ mạnh miễn phí cho Học máy và Khai phá dữ liệu
+Weka Machine Learning Software
+Matlab MATLAB có hỗ trợ hộp công cụ cho nhiều công cụ học máy. Hiện giờ hộ công cụ Tin sinh học đã có Support Vector Machines và các bộ phân loại KNN (k láng giềng gần nhất). Hộp công cụ thống kê thực hiện biệt thức tuyến tính và phân loại bằng cây quyết định. Hộp công cụ mạng nơ-ron là một bộ công cụ hoàn chỉnh để cài đặt mạng nơron. Trong thời gian gần đây, các phương pháp mới để đánh giá hiệu quả của các bộ phân loại và để thẩm định chéo đã làm Matlab trở nên hấp dẫn hơn đối với học máy.
+MLC++ là thư viện lớp C++ dành cho học có giám sát
+MDR Lưu trữ 2006-01-11 tại Wayback Machine là một gói phần mềm nguồn mở dành cho việc phát hiện các tương tác thuộc tính bằng phương pháp rút gọn thứ nguyên đa thừa số (MDR).
+
+Trong khoa học máy tính, trí tuệ nhân tạo hay AI ("ây-ai", tiếng Anh: artificial intelligence), đôi khi được gọi là trí thông minh nhân tạo, là trí thông minh được thể hiện bằng máy móc, trái ngược với trí thông minh tự nhiên của con người. Thông thường, thuật ngữ "trí tuệ nhân tạo" thường được sử dụng để mô tả các máy móc (hoặc máy tính) có khả năng bắt chước các chức năng "nhận thức" mà con người thường phải liên kết với tâm trí, như "học tập" và "giải quyết vấn đề".[1]
+
+Khi máy móc ngày càng tăng khả năng, các nhiệm vụ được coi là cần "trí thông minh" thường bị loại bỏ khỏi định nghĩa về AI, một hiện tượng được gọi là hiệu ứng AI.[2] Một câu châm ngôn trong Định lý của Tesler nói rằng "AI là bất cứ điều gì chưa được thực hiện."[3] Ví dụ, nhận dạng ký tự quang học thường bị loại trừ khỏi những thứ được coi là AI, đã trở thành một công nghệ thông thường.[4] khả năng máy hiện đại thường được phân loại như AI bao gồm thành công hiểu lời nói của con người,[1] cạnh tranh ở mức cao nhất trong trò chơi chiến lược (chẳng hạn như cờ vua và Go),[5] xe hoạt động độc lập, định tuyến thông minh trong mạng phân phối nội dung, và mô phỏng quân sự.
+
+Trí tuệ nhân tạo có thể được phân thành ba loại hệ thống khác nhau: trí tuệ nhân tạo phân tích, lấy cảm hứng từ con người và nhân tạo.[6] AI phân tích chỉ có các đặc điểm phù hợp với trí tuệ nhận thức; tạo ra một đại diện nhận thức về thế giới và sử dụng học tập dựa trên kinh nghiệm trong quá khứ để thông báo các quyết định trong tương lai. AI lấy cảm hứng từ con người có các yếu tố từ trí tuệ nhận thức và cảm xúc; hiểu cảm xúc của con người, ngoài các yếu tố nhận thức và xem xét chúng trong việc ra quyết định. AI nhân cách hóa cho thấy các đặc điểm của tất cả các loại năng lực (nghĩa là trí tuệ nhận thức, cảm xúc và xã hội), có khả năng tự ý thức và tự nhận thức được trong các tương tác.
+
+Trí tuệ nhân tạo được thành lập như một môn học thuật vào năm 1956, và trong những năm sau đó đã trải qua nhiều làn sóng lạc quan,[7][8] sau đó là sự thất vọng và mất kinh phí (được gọi là " mùa đông AI "),[9][10] tiếp theo là cách tiếp cận mới, thành công và tài trợ mới.[8][11] Trong phần lớn lịch sử của mình, nghiên cứu AI đã được chia thành các trường con thường không liên lạc được với nhau.[12] Các trường con này dựa trên các cân nhắc kỹ thuật, chẳng hạn như các mục tiêu cụ thể (ví dụ: " robot học " hoặc "học máy"),[13] việc sử dụng các công cụ cụ thể ("logic" hoặc mạng lưới thần kinh nhân tạo) hoặc sự khác biệt triết học sâu sắc.[14][15][16] Các ngành con cũng được dựa trên các yếu tố xã hội (các tổ chức cụ thể hoặc công việc của các nhà nghiên cứu cụ thể).[12]
+
+Lĩnh vực này được thành lập dựa trên tuyên bố rằng trí thông minh của con người "có thể được mô tả chính xác đến mức một cỗ máy có thể được chế tạo để mô phỏng nó".[17] Điều này làm dấy lên những tranh luận triết học về bản chất của tâm trí và đạo đức khi tạo ra những sinh vật nhân tạo có trí thông minh giống con người, đó là những vấn đề đã được thần thoại, viễn tưởng và triết học từ thời cổ đại đề cập tới.[18] Một số người cũng coi AI là mối nguy hiểm cho nhân loại nếu tiến triển của nó không suy giảm.[19] Những người khác tin rằng AI, không giống như các cuộc cách mạng công nghệ trước đây, sẽ tạo ra nguy cơ thất nghiệp hàng loạt.[20]
+
+Trong thế kỷ 21, các kỹ thuật AI đã trải qua sự hồi sinh sau những tiến bộ đồng thời về sức mạnh máy tính, dữ liệu lớn và hiểu biết lý thuyết; và kỹ thuật AI đã trở thành một phần thiết yếu của ngành công nghệ, giúp giải quyết nhiều vấn đề thách thức trong học máy, công nghệ phần mềm và nghiên cứu vận hành.[11]
+
+
+Mục lục
+1	Lịch sử
+2	Mục tiêu
+2.1	Lý luận, giải quyết vấn đề
+3	Các trường phái trí tuệ nhân tạo
+4	Triết lý Trí tuệ nhân tạo
+5	Máy tỏ ra có trí tuệ
+6	Các nhà nghiên cứu AI
+7	Tác động
+8	Tham khảo thêm
+8.1	Sách khoa học
+8.2	Các chủ đề có liên quan
+8.2.1	Các bài toán điển hình áp dụng các phương pháp Trí tuê nhân tạo
+8.2.2	Các lĩnh vực khác cài đặt các phương pháp Trí tuê nhân tạo
+9	Liên kết ngoài
+9.1	Tổng quan
+9.2	Các tổ chức liên quan
+10	Tham khảo
+11	Liên kết ngoài
+Lịch sử
+Bài chi tiết: Lịch sử ngành trí tuệ nhân tạo
+
+Silver didrachma from Crete depicting Talos, an ancient mythical automaton with artificial intelligence
+Tư tưởng có khả năng sinh vật nhân tạo xuất hiện như các thiết bị kể chuyện thời cổ đại,[21] và đã được phổ biến trong tiểu thuyết, như trong Frankenstein của Mary Shelley hay RUR (máy toàn năng Rossum) của Karel Capek.[22] Những nhân vật này và số phận của họ nêu ra nhiều vấn đề tương tự hiện đang được thảo luận trong đạo đức của trí tuệ nhân tạo.[18]
+
+Nghiên cứu về lý trí cơ học hoặc "chính thức" bắt đầu với các nhà triết học và toán học thời cổ đại. Nghiên cứu về logic toán học đã dẫn trực tiếp đến lý thuyết tính toán của Alan Turing, người cho rằng một cỗ máy, bằng cách xáo trộn các ký hiệu đơn giản như "0" và "1", có thể mô phỏng bất kỳ hành động suy luận toán học nào có thể hiểu được. Tầm nhìn sâu sắc này, cho thấy máy tính kỹ thuật số có thể mô phỏng bất kỳ quá trình suy luận hình thức nào, đã được gọi là luận án Church-Turing.[23] Cùng với những khám phá đồng thời về sinh học thần kinh, lý thuyết thông tin và điều khiển học, điều này khiến các nhà nghiên cứu cân nhắc khả năng xây dựng bộ não điện tử. Turing đã đề xuất rằng "nếu một con người không thể phân biệt giữa các phản hồi từ một máy và một con người, máy tính có thể được coi là 'thông minh'.[24] Công việc đầu tiên mà bây giờ được công nhận là trí tuệ nhân tạo là thiết kế hình thức "tế bào thần kinh nhân tạo" do McCullouch và Pitts đưa ra năm 1943.[1]
+
+Lĩnh vực nghiên cứu AI được ra đời tại một hội thảo tại Đại học Dartmouth năm 1956.[25] Những người tham dự Allen Newell (CMU), Herbert Simon (CMU), John McCarthy (MIT), Marvin Minsky (MIT) và Arthur Samuel (IBM) đã trở thành những người sáng lập và lãnh đạo nghiên cứu AI.[26] Họ và các sinh viên của họ đã tạo ra các chương trình mà báo chí mô tả là "đáng kinh ngạc":[27] máy tính đang học chiến lược kiểm tra (c. 1954)[28] (và đến năm 1959 được cho là chơi tốt hơn người bình thường),[29] giải từ các vấn đề về đại số, chứng minh các định lý logic (Lý thuyết logic, lần chạy đầu tiên vào năm 1956) và nói tiếng Anh.[30] Đến giữa thập niên 1960, nghiên cứu ở Mỹ được Bộ Quốc phòng tài trợ rất nhiều[31] và các phòng thí nghiệm đã được thành lập trên khắp thế giới.[32] Những người sáng lập AI rất lạc quan về tương lai: Herbert Simon dự đoán, "máy móc sẽ có khả năng, trong vòng hai mươi năm nữa, làm bất kỳ công việc nào mà một người có thể làm". Marvin Minsky đồng ý, viết, "trong một thế hệ  ... Vấn đề tạo ra 'trí tuệ nhân tạo' về cơ bản sẽ được giải quyết ".[7]
+
+Họ đã không nhận ra độ khó của một số nhiệm vụ còn lại. Tiến độ chậm lại và vào năm 1974, để đáp lại sự chỉ trích của Sir James Lighthill[33] và áp lực liên tục từ Quốc hội Hoa Kỳ để tài trợ cho các dự án năng suất cao hơn, cả chính phủ Hoa Kỳ và Anh đều dừng nghiên cứu khám phá về AI. Vài năm sau đó sẽ được gọi là " mùa đông AI ",[9] giai đoạn mà việc kiếm được tài trợ cho các dự án AI là khó khăn.
+
+Đầu những năm 1980, nghiên cứu AI đã được hồi sinh nhờ thành công thương mại của các hệ chuyên gia,[34] một dạng chương trình AI mô phỏng kiến thức và kỹ năng phân tích của các chuyên gia về con người. Đến năm 1985, thị trường cho AI đã đạt hơn một tỷ đô la. Đồng thời, dự án máy tính thế hệ thứ năm của Nhật Bản đã truyền cảm hứng cho chính phủ Hoa Kỳ và Anh khôi phục tài trợ cho nghiên cứu học thuật.[8] Tuy nhiên, bắt đầu với sự sụp đổ của thị trường Máy Lisp vào năm 1987, AI một lần nữa rơi vào tình trạng khó khăn, và một sự gián đoạn thứ hai, kéo dài hơn đã bắt đầu.[10]
+
+Vào cuối những năm 1990 và đầu thế kỷ 21, AI bắt đầu được sử dụng cho hậu cần, khai thác dữ liệu, chẩn đoán y tế và các lĩnh vực khác.[35] Thành công là nhờ sức mạnh tính toán ngày càng tăng (xem định luật Moore), nhấn mạnh hơn vào việc giải quyết các vấn đề cụ thể, mối quan hệ mới giữa AI và các lĩnh vực khác (như thống kê, kinh tế và toán học) và cam kết của các nhà nghiên cứu về phương pháp toán học và tiêu chuẩn khoa học.[36] Deep Blue trở thành hệ thống chơi cờ trên máy tính đầu tiên đánh bại một nhà đương kim vô địch cờ vua thế giới, Garry Kasparov, vào ngày 11 tháng 5 năm 1997.[37]
+
+Năm 2011, tại một chương trình truyền hình thi đấu trả lời câu hỏi biểu diễn Jeopardy!, hệ thống trả lời câu hỏi của IBM, Watson, đã đánh bại hai nhà vô địch Brad Rutter và Ken Jennings, với tỷ số chênh lệch đáng kể.[38] Máy tính nhanh hơn, cải tiến thuật toán và truy cập vào lượng lớn dữ liệu cho phép có được các tiến bộ trong học tập và nhận thức máy; phương pháp học sâu vốn đói dữ liệu bắt đầu thống trị các thử nghiệm liên quan đến độ chính xác vào khoảng năm 2012.[39] Kinect, cung cấp giao diện chuyển động cơ thể 3D cho Xbox 360 và Xbox One, sử dụng các thuật toán xuất hiện từ nghiên cứu AI dài[40] cũng như trợ lý cá nhân thông minh trong điện thoại thông minh.[41] Vào tháng 3 năm 2016, AlphaGo đã thắng 4 trên 5 trận đấu cờ vây trong trận đấu với nhà vô địch cờ vây Lee Sedol, trở thành hệ thống chơi cờ vây trên máy tính đầu tiên đánh bại một người chơi cờ vây chuyên nghiệp mà không cần chấp quân.[5][42] Trong Hội nghị Tương lai 2017, AlphaGo đã giành chiến thắng trong một trận đấu ba ván với Kha Khiết,[43] kỳ thủ lúc đó liên tục giữ vị trí số 1 thế giới trong hai năm.[44][45] Điều này đánh dấu sự hoàn thành một cột mốc quan trọng trong sự phát triển của trí tuệ nhân tạo vì cờ vây là một trò chơi tương đối phức tạp, hơn cả cờ vua.
+
+Theo Jack Clark của Bloomberg, năm 2015 là một năm mang tính bước ngoặt đối với trí tuệ nhân tạo, với số lượng dự án phần mềm sử dụng AI Google đã tăng từ "sử dụng lẻ tẻ" vào năm 2012 lên hơn 2.700 dự án. Clark cũng trình bày dữ liệu thực tế cho thấy những cải tiến của AI kể từ năm 2012 được hỗ trợ bởi tỷ lệ lỗi thấp hơn trong các tác vụ xử lý hình ảnh.[46] Ông cho rằng sự gia tăng các mạng thần kinh giá cả phải chăng, do sự gia tăng cơ sở hạ tầng điện toán đám mây và sự gia tăng các công cụ nghiên cứu và bộ dữ liệu.[11] Các ví dụ được trích dẫn khác bao gồm sự phát triển hệ thống Skype của Microsoft có thể tự động dịch từ ngôn ngữ này sang ngôn ngữ khác và hệ thống của Facebook có thể mô tả hình ảnh cho người mù.[46] Trong một cuộc khảo sát năm 2017, một trong năm công ty báo cáo rằng họ đã "kết hợp AI trong một số dịch vụ hoặc quy trình".[47][48] Khoảng năm 2016, Trung Quốc đã tăng tốc rất nhiều tài trợ của chính phủ; với nguồn cung cấp dữ liệu lớn và sản lượng nghiên cứu tăng nhanh, một số nhà quan sát tin rằng nó có thể đang trên đà trở thành một "siêu cường AI".[49][50] Tuy nhiên, người ta đã thừa nhận rằng các báo cáo liên quan đến trí tuệ nhân tạo có xu hướng bị phóng đại.[51][52][53]
+
+Mục tiêu
+Lý luận, giải quyết vấn đề
+Các nhà nghiên cứu đầu tiên đã phát triển các thuật toán bắt chước theo lý luận từng bước mà con người sử dụng khi giải quyết các câu đố hoặc đưa ra các phương pháp loại trừ logic.[54] Vào cuối những năm 1980 và 1990, nghiên cứu về AI đã phát triển các phương pháp xử lý thông tin không chắc chắn hoặc không đầy đủ, sử dụng các khái niệm từ xác suất và kinh tế.[55]
+
+Đối với những vấn đề khó, các thuật toán bắt buộc phải có phần cứng đủ mạnh để thực hiện phép tính toán khổng lồ - để trải qua "vụ nổ tổ hợp": lượng bộ nhớ và thời gian tính toán có thể trở nên vô tận nếu giải quyết một vấn đề khó. Mức độ ưu tiên cao nhất là tìm kiếm các thuật toán giải quyết vấn đề.[56]
+
+Con người thường sử dụng các phán đoán nhanh và trực quan chứ không phải là phép khấu trừ từng bước mà các nghiên cứu AI ban đầu có thể mô phỏng.[57] AI đã tiến triển bằng cách sử dụng cách giải quyết vấn đề "biểu tượng phụ": cách tiếp cận tác nhân được thể hiện nhấn mạnh tầm quan trọng của các kỹ năng cảm biến động đến lý luận cao hơn; nghiên cứu mạng thần kinh cố gắng để mô phỏng các cấu trúc bên trong não làm phát sinh kỹ năng này. Các phương pháp tiếp cận thống kê đối với AI bắt chước khả năng của con người.
+
+Các trường phái trí tuệ nhân tạo
+
+Robot ASIMO (Honda - Nhật Bản)
+Trí tuệ nhân tạo (AI) chia thành hai trường phái tư duy: Trí tuê nhân tạo truyền thống và trí tuệ tính toán.
+
+Trí tuê nhân tạo truyền thống hầu như bao gồm các phương pháp hiện được phân loại là các phương pháp học máy (machine learning), đặc trưng bởi hệ hình thức (formalism) và phân tích thống kê. Nó còn được biết với các tên Trí tuê nhân tạo biểu tượng, Trí tuê nhân tạo logic, Trí tuê nhân tạo ngăn nắp (neat AI) và Trí tuê nhân tạo cổ điển (Good Old Fashioned Artificial Intelligence). (Xem thêm ngữ nghĩa học.) Các phương pháp gồm có:
+
+Hệ chuyên gia: áp dụng các khả năng suy luận để đạt tới một kết luận. Một hệ chuyên gia có thể xử lý các lượng lớn thông tin đã biết và đưa ra các kết luận dựa trên các thông tin đó. Clippy chương trình trợ giúp có hình cái kẹp giấy của Microsoft Office là một ví dụ. Khi người dùng gõ phím, Clippy nhận ra các xu hướng nhất định và đưa ra các gợi ý.
+Lập luận theo tình huống.
+Mạng Bayes.
+Trí tuệ tính toán nghiên cứu việc học hoặc phát triển lặp (ví dụ: tinh chỉnh tham số trong hệ thống, chẳng hạn hệ thống connectionist). Việc học dựa trên dữ liệu kinh nghiệm và có quan hệ với Trí tuệ nhân tạo phi ký hiệu, Trí tuê nhân tạo lộn xộn (scruffy AI) và tính toán mềm (soft computing). Các phương pháp chính gồm có:
+
+Mạng neural: các hệ thống mạnh về nhận dạng mẫu (pattern recognition).
+Hệ mờ (Fuzzy system): các kỹ thuật suy luận không chắc chắn, đã được sử dụng rộng rãi trong các hệ thống công nghiệp hiện đại và các hệ thống quản lý sản phẩm tiêu dùng.
+Tính toán tiến hóa (Evolutionary computation): ứng dụng các khái niệm sinh học như quần thể, biến dị và đấu tranh sinh tồn để sinh các lời giải ngày càng tốt hơn cho bài toán. Các phương pháp này thường được chia thành các thuật toán tiến hóa (ví dụ thuật toán gene) và trí tuệ bầy đàn (swarm intelligence) (chẳng hạn hệ kiến).
+Trí tuê nhân tạo dựa hành vi (Behavior based AI): một phương pháp module để xây dựng các hệ thống Trí tuê nhân tạo bằng tay.
+Người ta đã nghiên cứu các hệ thống thông minh lai (hybrid intelligent system), trong đó kết hợp hai trường phái này. Các luật suy diễn của hệ chuyên gia có thể được sinh bởi mạng neural hoặc các luật dẫn xuất (production rule) từ việc học theo thống kê như trong kiến trúc ACT-R.
+
+Các phương pháp trí tuệ nhân tạo thường được dùng trong các công trình nghiên cứu khoa học nhận thức (cognitive science), một ngành cố gắng tạo ra mô hình nhận thức của con người (việc này khác với các nghiên cứu Trí tuê nhân tạo, vì Trí tuê nhân tạo chỉ muốn tạo ra máy móc thực dụng, không phải tạo ra mô hình về hoạt động của bộ óc con người).
+
+Triết lý Trí tuệ nhân tạo
+Bài chính Triết lý Trí tuệ nhân tạo
+
+Trí tuê nhân tạo mạnh hay Trí tuê nhân tạo yếu, đó vẫn là một chủ đề tranh luận nóng hổi của các nhà triết học Trí tuê nhân tạo. Nó liên quan tới philosophy of mind và mind-body problem. Đáng chú ý nhất là Roger Penrose trong tác phẩm The Emperor's New Mind và John Searle với thí nghiệm tư duy trong cuốn Chinese room (Căn phòng Trung Hoa) khẳng định rằng các hệ thống logic hình thức không thể đạt được nhận thức thực sự, trong khi Douglas Hofstadter trong Gödel, Escher, Bach và Daniel Dennett trong Consciousness Explained ủng hộ thuyết chức năng. Theo quan điểm của nhiều người ủng hộ Trí tuê nhân tạo mạnh, nhận thức nhân tạo được coi là "chén thánh " của Trí tuê nhân tạo.
+
+Máy tỏ ra có trí tuệ
+Có nhiều ví dụ về các chương trình thể hiện trí thông minh ở một mức độ nào đó. Ví dụ:
+ý học Stephen Hawking và Elon Musk cảnh báo về mối đe dọa tiềm ẩn của trí tuệ nhân tạo, nhiều người cho rằng họ đã quá lo xa trong khi AI đang giúp ích rất nhiều cho cuộc sống của chúng ta. Stephen Hawking khẳng định “Trí tuệ nhân tạo có thể là dấu chấm hết cho nhân loại khi nó phát triển đến mức hoàn thiện nhất”.[46]
+
+Tác động đầu tiên của trí tuệ nhân tạo mà chúng ta có thể dễ dàng nhận thấy chính là tỷ lệ thất nghiệp tăng cao. Nếu AI phát triển hoàn thiện, nó có khả năng thay thế con người trong các công việc trí tuệ như chăm sóc sức khỏe, phục vụ, sản xuất theo dây chuyền tự động, công việc văn phòng....[46] Hoặc cũng có thể vấn đề thất nghiệp sẽ được AI giải quyết một cách mà chúng ta không thể hình dung được.
+
+Theo Bill Joy, người đồng sáng lập và Giám đốc khoa học của Sun Microsystems: "Có một vấn đề rất lớn đối với xã hội loài người khi AI trở nên phổ biến, đó là chúng ta sẽ bị lệ thuộc. Khi AI trở nên hoàn thiện và thông minh hơn, chúng ta sẽ cho phép mình nghe theo những quyết định của máy móc, vì đơn giản là các cỗ máy luôn đưa ra quyết định chính xác hơn con người."[46]
+
+Theo Andrew Maynard, nhà vật lý và là người giám đốc Trung tâm nghiên cứu rủi ro khoa học tại đại học Michigan: "Khi AI kết hợp với công nghệ nano có thể là bước tiến đột phá của khoa học, nhưng cũng có thể là mối đe dọa lớn nhất đối với con người. Trong khi Bộ quốc phòng Mỹ đang nghiên cứu dự án Autonomous Tactical Robot (EATR), trong đó các robot sẽ sử dụng công nghệ nano để hấp thụ năng lượng bằng những chất hữu cơ có thể là cơ thể con người. Đó thực sự là mối đe dọa lớn nhất, khi các robot nano tự tạo ra năng lượng bằng cách ăn các chất hữu cơ từ cây cối và động vật, có thể là cả con người. Nghe có vẻ giống như trong các bộ phim viễn tưởng, nhưng đó là điều hoàn toàn có thể xảy ra. Có lẽ chúng ta nên bắt đầu cẩn thận ngay từ bây giờ."
+
+Tham khảo thêm
+Sách khoa học
+Dưới đây là danh sách các cuốn sách (tiếng Anh) quan trọng trong ngành. Xem danh sách đầy đủ hơn tại Các ấn phẩm Trí tuệ nhân tạo quan trọng.
+
+Artificial Intelligence: A Modern Approach, tác giả: Stuart J. Russell và Peter Norvig ISBN 0-13-080302-2
+Gödel, Escher, Bach: An Eternal Golden Braid, tác giả: Douglas R. Hofstadter
+Understanding Understanding: Essays on Cybernetics and Cognition, tác giả: Heinz von Foerster
+In the Image of the Brain: Breaking the Barrier Between Human Mind and Intelligent Machines, tác giả: Jim Jubak
+Today's Computers, Intelligent Machines and Our Future, tác giả: Hans Moravec, Đại học Stanford
+The Society of Mind, tác giả: Marvin Minsky, ISBN 0-671-65713-5 15-3-1998
+Perceptrons: An Introduction to Computational Geometry, tác giả: Marvin Minsky and Seymour Papert ISBN 0-262-63111-3 28-12-1987
+The Brain Makers: Genius, Ego and Greed In The Quest For Machines That Think, tác giả: HP Newquist ISBN 0-672-30412-0.
+Các chủ đề có liên quan
+Danh sách máy tính hư cấu
+Danh sách người máy hư cấu
+Các bài toán điển hình áp dụng các phương pháp Trí tuê nhân tạo
+Nhận dạng mẫu
+Nhận dạng chữ cái quang học (Optical character recognition)
+Nhận dạng chữ viết tay
+Nhận dạng tiếng nói
+Nhận dang khuôn mặt
+Xử lý ngôn ngữ tự nhiên, Dịch tự động(dịch máy) và Chatterbot
+Điều khiển phi tuyến và Robotics
+Computer vision, Thực tại ảo và Xử lý ảnh
+Lý thuyết trò chơi và Lập kế hoạch (Strategic planning)
+Trò chơi Trí tuê nhân tạo và Computer game bot
+Các lĩnh vực khác cài đặt các phương pháp Trí tuê nhân tạo
+Tự động hóa
+Bio-inspired computing
+Điều khiển học
+Hệ thống thông minh lai
+Agent thông minh
+Điều khiển thông minh
+Suy diễn tự động
+Khai phá dữ liệu
+Cognitive robotics
+Developmental robotics
+Evolutionary robotics
+Chatbot
+Liên kết ngoài
